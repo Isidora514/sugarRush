@@ -1,6 +1,11 @@
 .App {
   text-align: center;
 }
+.font-link {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
 
 .App-logo {
   height: 40vmin;
@@ -13,6 +18,11 @@
   }
 }
 
+.App-link {
+  color: #61dafb;
+}
+
+/* ------------HEADER SECTION--------------  */
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -20,12 +30,190 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App-header h2{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 35px;
+  font: white;
+}
+
+#background {
+  display: block;
+  background-color: yellowgreen;
+  height: 30vh;
+}
+
+#description {
+  display: block;
+  border: solid 1px lightgreen;
+  background-color: #56d0fa;
+  border-radius: 25px;
+  position: absolute;
+  padding: 3.5%;
+  top: 35vh;
+}
+
+#videodiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 14vh;
+}
+
+#videoWindow {
+  border-radius: 25px;
+  border: green 4px solid;
+  z-index: 10;
+}
+
+#nav li {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #56d0fa;
+  height: 10vh;
+}
+
+/* ------------Characters section--------------  */
+
+.characterDivs {
+  display: flex;
+  height: 45vh;
+  top: 10vh;
+  justify-content: space-between;
+}
+.descBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: rebeccapurple 1px solid;
+  width: 50%;
+  height: 100%;
+  margin: 0;
+  border-radius: 25px;
+}
+
+.descBox button {
+  background-color: white;
+  margin-top: 8vh;
+  margin-left: auto;
+  margin-right: auto;
+  height: 12%;
+  border-radius: 25px;
+  width: 30%;
+}
+
+.desc {
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.imageHolder {
+  display: flex;
+  flex-direction: row;
+}
+
+/* --------------VideoSection--------------  */
+
+.videoSection h1 {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 50px;
+  color: red;
+  font-size: 35px;
+}
+
+.currentVideoWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Currentvideo {
+  width:460px; 
+  height:265px;
+  padding: 2vh;
+}
+
+.videos svg {
+  padding: 2vh;
+}
+
+.nextVids {
+  display: flex;
+  flex-direction: column;
+}
+
+.vids {
+  width:460px; 
+  height:265px;
+}
+
+.divRow1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.divRow2 {
+  padding-top: 2vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+ /* ------------------Follow section---------------  */
+ #followSection h1 {
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 50px;
+  color: red;
+  font-size: 35px;
+}
+
+.followLinks {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5vh;
+}
+
+ /* ------------------Footer section---------------  */
+
+.firstFooter {
+  color: white;
+  display: flex;
+  width: 100%;
+}
+
+ .firstFooter td {
+   border-radius: 30px;
+   width: 100%;
+ }
+
+ .firstFooter h1 {
+   font-size: 40px;
+   text-align: left;
+   padding-left: 20px;
+ }
+
+ .midImage {
+   height: 15vh;
+ }
+
+ .secondFooter {
+  color: white;
+  display: flex;
+  width: 100%;
+}
+
+ .secondFooter td {
+   border-radius: 30px;
+   width: 100%;
+ }
+
+ .secondFooter h1 {
+  font-size: 40px;
+  text-align: right;
+  padding-right: 20px;
 }
 
 @keyframes App-logo-spin {

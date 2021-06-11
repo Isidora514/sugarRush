@@ -1,0 +1,47 @@
+import React, { useState } from 'react';
+
+export default function Videos(props) {
+  const videolist = [
+  <iframe className="vids" src="https://www.youtube.com/embed/los4K5cif30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>, 
+  <iframe className="vids" src="https://www.youtube.com/embed/4wEO_JuON9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>, 
+  <iframe className="vids" src="https://www.youtube.com/embed/ap90npnxZzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+  <iframe className="vids" src="https://www.youtube.com/embed/ap90npnxZzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
+  <iframe className="vids" src="https://www.youtube.com/embed/ap90npnxZzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
+
+  const [index, setIndex] = useState(0)
+
+  
+
+
+  return (
+    <section className="videoSection">
+      <div>
+      <h1 color="#FF0000">More Youtube videos</h1>
+      </div>
+      <div className="currentVideoWrapper">
+          <svg onClick={()=> {
+            console.log('left clicked, i-1')}
+            } xmlns="http://www.w3.org/2000/svg" width="65" height="65" fill="red" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+            <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+          </svg>
+          <div className="Currentvideo">
+      {videolist[index]}
+      </div>
+      <svg onClick={()=> {setIndex(+1)}} xmlns="http://www.w3.org/2000/svg" width="65" height="65" fill="red" class="bi bi-arrow-right-circle-fill" viewBox="0 0 16 16">
+      <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+      </svg>
+      </div>
+        <div className="nextVids">
+          <div className="divRow1">
+          {videolist[index + 1]}
+          {videolist[index + 2]}
+          </div>
+          <div className="divRow2">
+          {videolist[index + 3]}
+          {videolist[index + 4]}
+          </div>
+        </div>
+    </section>
+  )
+}
