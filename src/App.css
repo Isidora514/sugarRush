@@ -39,12 +39,14 @@
 
 .App-header h2 {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 35px;
+  font-size: 18px;
   font: white;
 }
 
 #background {
   display: block;
+  background-image: url(images/farm.png);
+  background-size: 100%;
   background-color: yellowgreen;
   height: 30vh;
 }
@@ -79,6 +81,7 @@
   height: 45vh;
   top: 10vh;
   justify-content: space-between;
+  padding: 1px;
 }
 .descBox {
   display: flex;
@@ -97,7 +100,7 @@
   margin-top: 8vh;
   margin-left: auto;
   margin-right: auto;
-  height: 12%;
+  height: 16%;
   border-radius: 25px;
   width: 30%;
   box-shadow: 1px 1px lightgrey;
@@ -191,7 +194,7 @@
 }
 
 .firstFooter h1 {
-  font-size: 40px;
+  font-size: 35px;
   text-align: left;
   padding-left: 20px;
 }
@@ -212,9 +215,109 @@
 }
 
 .secondFooter h1 {
-  font-size: 40px;
+  font-size: 35px;
   text-align: right;
   padding-right: 20px;
+}
+
+/* ------------ About page ------------- */
+.aboutSection {
+  font-size: 20px;
+  background-color: #56d0fa;
+  border-radius: 25px;
+  z-index: inherit;
+}
+
+.aboutSection h1 {
+  margin-top: 0;
+  text-align: left;
+  color: white;
+  padding-left: 1vh;
+}
+
+.aboutSection p {
+  margin-top: 0;
+  text-align: left;
+  color: white;
+  padding-left: 1vh;
+}
+
+.chikita {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutDescriptions {
+  border-radius: 25px;
+  font-size: 18px;
+  color: whitesmoke;
+  margin: 1vh;
+}
+
+.aboutDescriptions p {
+  padding: 30px;
+}
+
+.chikita .aboutDescriptions {
+  background-color: #eb4e72;
+}
+
+.chikita h1 {
+  text-align: left;
+  padding-left: 5px;
+}
+
+/* NOT SURE ABOUT THIS ONE ----------------------------- */
+.coco {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.coco .aboutDescriptions {
+  background-color: #65f3d7;
+  width: 45%;
+}
+
+.coco p {
+  font-size: 18px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.tBone {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.tBone .aboutDescriptions {
+  background-color: #56d0fa;
+  width: 100%;
+}
+
+.tBone img {
+}
+
+.tBone p {
+  font-size: 18px;
+  position: relative;
+  text-align: left;
+}
+
+.henwee .aboutDescriptions {
+  background-color: #e2ed3a;
+  width: 50%;
+}
+
+.wacky .aboutDescriptions {
+  background-color: #7152be;
+  width: 95%;
+}
+
+.rooster .aboutDescriptions {
+  background-color: #63c828;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @keyframes App-logo-spin {
