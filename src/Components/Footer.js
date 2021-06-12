@@ -1,5 +1,6 @@
 import React from "react";
-import bigChicken from "../images/big-chicken-pplaceholder.png"
+import bigChicken from "../images/home/Brooster-Rooster-2.png";
+import footerAnimals from '../images/home/Footer-animals.png'; 
 
 
 export default function Characters(props) {
@@ -19,7 +20,9 @@ export default function Characters(props) {
       </div>
     </div>
 
+    <div className='midImageDiv'>
     <img className="midImage" src={bigChicken} alt="bigchicken" />
+    </div>
 
     <div className="secondFooter">
       <div className="magenta-bg px-5 pb-2"> 
@@ -29,6 +32,7 @@ export default function Characters(props) {
     </div>
 
     <div className="thirdFooter mt-3">
+      <img src={footerAnimals} /> 
       <h1 className="magenta mb-4">BYE BYE SEE YOU SOON!</h1>
       <p className="disclaimer">For Entertainment, Educational and Music purpose, only for kids</p>
     </div>
