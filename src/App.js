@@ -15,6 +15,8 @@ import Videos from './Components/Videos';
 import Follow from './Components/Follow';
 import Footer from './Components/Footer';
 
+import About from './Components/About';
+
 function App() {
   return (
     <Router>
@@ -27,6 +29,10 @@ function App() {
           <Videos />
           <Follow />
           <Footer />
+        </Route>
+        <Route path="/about">
+          <About />
+          <Follow />
         </Route>
       </Switch>
         </div>
