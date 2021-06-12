@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import data from './data/data.json'
 
 export default function About (props) {
 
@@ -9,16 +10,6 @@ export default function About (props) {
   'Through the song as a first step, the fathers hope to bring back good educational content, uncomplicated children’s leisure time from online games to more traditional family and social games which are educational and have sold teachings as they did in the past, with a twist of the now and a look at the future.”'
 ]
 
-
-  const description = [
-    "She is a Sassy chiken and mama to her chicks. She's fun and curious and likes to know everything that is happening on the farm. Some would even say she's was a little bit noisy! She's also a prankster and lives telling knock knock jokes!", 
-    "She's the wise one of the bunch and the other farm animals look up to her. She keeps everyone in check and the other farm animals respect her and know when she means business. THere's no messing around with Coco! SHe asserts herself but also has a fun side. No one dances better than she can!",
-    "He's a small dog with a big personality and you guessed it, he loves bones! Sometimes he thinks he's a chihuahua and other ties he thinks he's a dalmatian. Can you help us figure out what kind of dog he is?",
-    "He's the best in the west and loves adventures, never says no to a quest. He loves country music and to throw barn yard parties for his friends. He loves hay but will never say no to a good carrot or apple.", 
-    "What can we say about Whacky Dacky? He's a little bit wacky and a little bit quaky and is just one happy-go-lucky ducky. He's the kind of dick you just want to hang out with. He also gives the best hugs ever!",
-    "Brooster the rooster makes sure everybody on the farm is up and ready. At the crack of dawn he cockleddoodledoos to mark the start of a new day of activities, learning and play!"
-
-  ]
 
     return (
       <section>
@@ -37,7 +28,7 @@ export default function About (props) {
         <img alt="bigchicken" />
         <div className="aboutDescriptions">
         <h1>Chikita the chicken</h1>
-        <p>{description[0]}</p>
+        <p>{data.characters.chikita}</p>
         </div>
       </div>
 
@@ -45,7 +36,7 @@ export default function About (props) {
         <img alt="COW" />
         <div className="aboutDescriptions">
         <h1>Coco the cow</h1>
-        <p>{description[1]}</p>
+        <p>{data.characters.coco}</p>
         </div>
       </div>
 
@@ -53,7 +44,7 @@ export default function About (props) {
         <img alt="DOG" />
         <div className="aboutDescriptions">
         <h1>T-Bone the dog</h1>
-        <p>{description[2]}</p>
+        <p>{data.characters.tBone}</p>
         </div>
       </div>
 
@@ -62,7 +53,7 @@ export default function About (props) {
         <img alt="Horse" />
         <div className="aboutDescriptions">
         <h1>Henwee the horse</h1>
-        <p>{description[3]}</p>
+        <p>{data.characters.henwee}</p>
         </div>
       </div>
 
@@ -70,7 +61,7 @@ export default function About (props) {
         <img alt="DUCK" />
         <div className="aboutDescriptions">
         <h1>Whacky Dacky the duck</h1>
-        <p>{description[4]}</p>
+        <p>{data.characters.whacky}</p>
         </div>
       </div>
 
@@ -78,7 +69,7 @@ export default function About (props) {
         <img alt="Rooster" />
         <div className="aboutDescriptions">
         <h1> Brooster the Rooster</h1>
-        <p>{description[5]}</p>
+        <p>{data.characters.brooster}</p>
         </div>
       </div>
 
