@@ -16,6 +16,7 @@ import Follow from './Components/Follow';
 import Footer from './Components/Footer';
 
 import About from './Components/About';
+import Contact from './Components/Contact';
 
 function App() {
   return (
@@ -32,6 +33,10 @@ function App() {
         </Route>
         <Route path="/about">
           <About />
+          <Follow />
+        </Route>
+        <Route path="/contact">
+          <Contact />
           <Follow />
         </Route>
       </Switch>
