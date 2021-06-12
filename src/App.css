@@ -1,3 +1,53 @@
+/* -----colors------ */
+
+.magenta-bg {
+  background-color: #e91572;
+}
+
+.magenta {
+  color: #e91572 !important;
+}
+
+.teal-bg {
+  background-color: #3bf3d7;
+}
+
+.teal {
+  color: #3bf3d7 !important;
+}
+
+.blue-bg {
+  background-color: #56d0fa;
+}
+
+.blue {
+  color: #56d0fa !important;
+}
+
+.lime-bg {
+  background-color: #e4f20b;
+}
+
+.lime {
+  color: #e4f20b !important;
+}
+
+.purple-bg {
+  background-color: #6b1dbe;
+}
+
+.purple {
+  color: #6b1dbe !important;
+}
+
+.green-bg {
+  background-color: #1cc70e;
+}
+
+.green {
+  color: #1cc70e !important;
+}
+
 .App {
   text-align: center;
 }
@@ -56,22 +106,33 @@
   border: solid 1px lightgreen;
   background-color: #56d0fa;
   border-radius: 25px;
-  position: absolute;
-  padding: 3.5%;
+  margin-top: -25px;
+  padding: 2rem 2rem 40px 2rem;
   top: 35vh;
 }
 
 #videodiv {
   display: flex;
   justify-content: center;
-  padding-top: 14vh;
+  position: relative;
+  height: 250px;
+}
+
+#videodiv > .chicken {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: -15px;
+  left: 130px;
 }
 
 #videoWindow {
-  width: 56%;
+  /* width: 56%; */
   border-radius: 25px;
   border: green 4px solid;
   z-index: 10;
+  position: absolute;
+  top: -30px;
 }
 
 /* ------------Characters section--------------  */
@@ -83,32 +144,38 @@
   justify-content: space-between;
   padding: 1px;
 }
+
 .descBox {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  border: rebeccapurple 1px solid;
+  justify-content: center;
   width: 50%;
   height: 100%;
   margin: 0;
+  padding: 2rem 3rem;
   border-radius: 25px;
 }
 
 .descBox button {
   background-color: white;
-  font-size: 18px;
+  font-weight: 900;
+  width: 70%;
+  margin: 0 auto;
+  border: none;
+  /* font-size: 18px;
   margin-top: 8vh;
   margin-left: auto;
   margin-right: auto;
   height: 16%;
   border-radius: 25px;
   width: 30%;
-  box-shadow: 1px 1px lightgrey;
+  box-shadow: 1px 1px lightgrey; */
 }
 
 .desc {
   justify-content: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .imageHolder {
@@ -259,7 +326,7 @@
 }
 
 .chikita .aboutDescriptions {
-  background-color: #eb4e72;
+  background-color: #e91572;
 }
 
 .chikita h1 {
