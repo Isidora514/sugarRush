@@ -162,14 +162,6 @@
   width: 70%;
   margin: 0 auto;
   border: none;
-  /* font-size: 18px;
-  margin-top: 8vh;
-  margin-left: auto;
-  margin-right: auto;
-  height: 16%;
-  border-radius: 25px;
-  width: 30%;
-  box-shadow: 1px 1px lightgrey; */
 }
 
 .desc {
@@ -231,10 +223,10 @@
 
 /* ------------------Follow section---------------  */
 #followSection h1 {
-  font-family: "Open Sans", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
   margin-top: 50px;
-  color: red;
-  font-size: 35px;
+  font-weight: 800;
+  font-size: 40px;
 }
 
 .followLinks {
@@ -243,11 +235,16 @@
   padding: 5vh;
 }
 
+.tiktokLogo {
+  width: 100px;
+  height: 100px;
+}
+
 /* ------------------Footer section---------------  */
 
-.footerSection p {
+/* .footerSection p {
   padding: 1vh;
-}
+} */
 
 .firstFooter {
   color: white;
@@ -255,7 +252,7 @@
   width: 100%;
 }
 
-.firstFooter td {
+.firstFooter div {
   border-radius: 30px;
   width: 100%;
 }
@@ -263,17 +260,23 @@
 .firstFooter h1 {
   font-size: 35px;
   text-align: left;
-  padding-left: 20px;
+  margin-top: -10px;
+}
+
+.firstFooter p {
+  text-align: left;
 }
 
 .midImage {
   height: 15vh;
 }
 
-.secondFooter {
+.secondFooter div {
   color: white;
-  display: flex;
   width: 100%;
+  border-radius: 15px;
+  padding-top: 100px;
+  text-align: right;
 }
 
 .secondFooter td {
@@ -287,6 +290,9 @@
   padding-right: 20px;
 }
 
+.disclaimer {
+  font-weight: bolder;
+}
 /* ------------ About page ------------- */
 .aboutSection {
   font-size: 20px;
