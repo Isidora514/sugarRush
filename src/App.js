@@ -13,6 +13,7 @@ import Header from './Components/Header';
 import Characters from './Components/Characters';
 import Videos from './Components/Videos';
 import Follow from './Components/Follow';
+import Story from './Components/Story';
 import Footer from './Components/Footer';
 
 import About from './Components/About';
@@ -29,15 +30,18 @@ function App() {
           <Characters />
           <Videos />
           <Follow />
+          <Story />
           <Footer />
         </Route>
         <Route path="/about">
           <About />
           <Follow />
+          <Footer />
         </Route>
         <Route path="/contact">
           <Contact />
           <Follow />
+          <Footer />
         </Route>
       </Switch>
         </div>

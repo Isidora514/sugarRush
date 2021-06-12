@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Form from './Myfrom'
+import footerAnimals from '../images/home/Footer-animals.png'; 
+import Form from './Myform'
 
 export default function Contact (props) {
 

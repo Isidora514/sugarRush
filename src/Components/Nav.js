@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logo from "../images/logo.png"
 
 export default function Nav (props) {
 
@@ -8,25 +9,25 @@ export default function Nav (props) {
 
             <a className='navbar-brand'>
               {/* Just insert an image tag of the logo here and href to the anchor tag */}
-            logo placeholder
+              <img id="logo" src={logo} alt="logo" />
             </a>
 
             <div className='collapse navbar-collapse w-100'>
               <ul className='navbar-nav w-100 justify-content-around'>
                   <li className="nav-item selected">
-                    <h3><a className="text-white text-decoration-none" href="">Home</a></h3>
+                    <h3><a className="text-white text-decoration-none" href="/">Home</a></h3>
                   </li>
 
                   <li className="nav-item">
-                    <h3><a className="text-white text-decoration-none" href="">About</a></h3>
+                    <h3><a className="text-white text-decoration-none" href="/about">About</a></h3>
                   </li>
 
                   <li className="nav-item">
-                    <h3><a className="text-white text-decoration-none" href="">Media</a></h3>
+                    <h3><a className="text-white text-decoration-none" href="/media">Media</a></h3>
                   </li>
                   
                   <li className="nav-item">
-                    <h3><a className="text-white text-decoration-none" href="">Contact</a></h3>
+                    <h3><a className="text-white text-decoration-none" href="/contact">Contact</a></h3>
                   </li>
               </ul>
             </div>
