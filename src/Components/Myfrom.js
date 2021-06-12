@@ -42,7 +42,7 @@ export default function Form() {
         errors={state.errors}
       />
       <button type="submit" disabled={state.submitting}>
-        <h1>Submit</h1>
+        <h3>Submit</h3>
       </button>
     </form>
   );

@@ -443,8 +443,9 @@
   color: white;
 }
 
-#emailForm button h1 {
+#emailForm button h3 {
   margin-top: 5px;
+  color: white
 }
 
 @keyframes App-logo-spin {
