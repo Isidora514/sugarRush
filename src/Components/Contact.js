@@ -7,8 +7,13 @@ import barn from "../images/contact/barn-contact-1.png"
 import house from "../images/contact/House-contact.png"
 import banner from "../images/contact/banner-contact.png"
 
+import tBone from "../images/contact/T-bone-contact.png"
+import hay from "../images/contact/botte-foin-contact.png"
+import wacky from "../images/contact/Wacky-duck-contact.png"
+
 
 import Form from './Myform'
+import Follow from './Follow'
 
 export default function Contact (props) {
 
@@ -21,11 +26,33 @@ export default function Contact (props) {
         <h1> CONTACT US!</h1>
         <Form className="inputFields" />
      </div>
-      <div className="topGrid">
-         <img scr={barn} />
-         <img scr={house} />
+     <div className="contactImgs">
+        <img id="tBoneContact" src={tBone} />
+        <img src={hay} />
       </div>
+      
+      <div className="grid">
+
+    <div className="row1Contact">
+      <img className="houseContact" src={house} alt="house"></img >
+      <div className="followUsContact">
+         <h1 className="magenta mb-4">FOLLOW US ON</h1>
+         <h1 className="magenta mb-4">YOUTUBE AND TICKTOK</h1>
+         <div className="contactLinkWrap">
+         <a href="https://www.youtube.com/channel/UCkalsK7iUBi29AfUjSI_P4w" target="_blank"><img className="contactFollowLinks"  src={youtubeLogo} /></a>
+         <a href="https://www.tiktok.com/@sugarrushjams?lang=en" target="_blank"><img className="contactFollowLinks" src={tiktokLogo} /></a>
+         </div>
+      </div>
+    </div>
+
+    <div className="row2Contact">
+      <img className="houseContact" src={house} alt="house"></img >
+    </div>
+
+    </div>
+
       <div className="bottomGrid">
+         <img id="wackyContact" src={wacky} />
       </div>
   </section>
   );

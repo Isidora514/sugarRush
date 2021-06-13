@@ -22,7 +22,7 @@ export default function Characters(props) {
 
 <div className="characterDivs">
       <div className="imageHolder">
-          <h2 id="chickitaName" className="magenta bolder">CHICKITA</h2>
+          <h2 className="roboto" id="chickitaName" className="magenta bolder">CHICKITA</h2>
           <img id="chickita" src={chikita} alt="chickita"></img >
         </div>
       <div className="descBox magenta-bg"> 
@@ -41,7 +41,7 @@ export default function Characters(props) {
       <button type="button" class="btn btn-primary btn-lg teal">Learn more about me!</button>
       </div>
       <div className="imageHolder">
-          <h2 id="cocoName" className="teal">COCO</h2>
+          <h2 className="roboto" id="cocoName" className="teal">COCO</h2>
           <img id="coco" src={coco} alt="coco"></img >
         </div>
     </div>
@@ -67,14 +67,14 @@ export default function Characters(props) {
       <button type="button" class="btn btn-primary btn-lg lime">Learn more about me!</button>
         </div>
         <div className="imageHolder">
-          <h2 className="lime">HENWEE</h2>
+          <h2 className="roboto" className="lime">HENWEE</h2>
           <img id="henwee" src={henwee} alt="henwee"></img >
         </div>
     </div>
 
     <div className="characterDivs">
     <div className="imageHolder">
-          <h2 className="purple">WACKY DACKY</h2>
+          <h2 className="roboto" className="purple">WACKY DACKY</h2>
           <img id="wacky" src={wacky} alt="wacky"></img >
         </div>
       <div className="descBox purple-bg">  
@@ -93,7 +93,7 @@ export default function Characters(props) {
       <button type="button" class="btn btn-primary btn-lg green">Learn more about me!</button>
         </div>
         <div className="imageHolder">
-          <h2 className="green">BROOSTER</h2>
+          <h2 className="roboto" className="green">BROOSTER</h2>
           <img id="brooster" src={brooster} alt="Rooster"></img >
         </div>
     </div>

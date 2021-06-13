@@ -9,8 +9,8 @@ export default function Follow (props) {
   <section id="followSection">
     <h1 className='magenta'> Follow us on Youtube and Tiktok! </h1>
     <div className="followLinks">
-    <img className="youtubeLogo" src={youtubeLogo} />  
-    <img className="tiktokLogo" src={tiktokLogo} />
+    <a href="https://www.youtube.com/channel/UCkalsK7iUBi29AfUjSI_P4w" target="_blank"><img  className="youtubeLogo" src={youtubeLogo} /></a>
+    <a href="https://www.tiktok.com/@sugarrushjams?lang=en" target="_blank"><img className="tiktokLogo" src={tiktokLogo} /></a>
     </div>
   </section>
   );

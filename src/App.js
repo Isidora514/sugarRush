@@ -18,6 +18,7 @@ import Footer from './Components/Footer';
 
 import About from './Components/About';
 import Contact from './Components/Contact';
+import Media from './Components/Media';
 
 function App() {
 
@@ -41,7 +42,10 @@ function App() {
         </Route>
         <Route path="/contact">
           <Contact />
-          <Follow />
+          <Footer />
+        </Route>
+        <Route path="/media">
+          <Media />
           <Footer />
         </Route>
       </Switch>
