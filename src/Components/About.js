@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import data from './data/data.json'
+import banner from "../images/about/About-banner.png";
+import landscape from "../images/about/landscape-foin-sceau-about.png"
+import Follow from "./Follow"
 
 export default function About (props) {
 
@@ -12,9 +15,9 @@ export default function About (props) {
 
 
     return (
-      <section>
-      <div id="background">
-         <img alt="farm" />
+      <section id="aboutPage">
+      <div>
+         <img className="aniPics" id="aboutBanner" src={banner} alt="farm" />
       </div>
       <div className="aboutSection">
         <h1> Made by Parents <br/> that behave like children! </h1>
@@ -23,9 +26,9 @@ export default function About (props) {
         <p>{story[2]}</p>
         <p>{story[3]}</p>
       </div>
-
+      <div className="aboutAnimals">
       <div className="chikita">
-        <img alt="bigchicken" />
+        <img className="aniPics" id="chikitaImage" alt="bigchicken" />
         <div className="aboutDescriptions">
         <h1>Chikita the chicken</h1>
         <p>{data.characters.chikita}</p>
@@ -33,7 +36,7 @@ export default function About (props) {
       </div>
 
       <div className="coco">
-        <img alt="COW" />
+        <img className="aniPics" id="cocoImage" alt="COW" />
         <div className="aboutDescriptions">
         <h1>Coco the cow</h1>
         <p>{data.characters.coco}</p>
@@ -41,7 +44,7 @@ export default function About (props) {
       </div>
 
       <div className="tBone">
-        <img alt="DOG" />
+        <img className="aniPics" id="tBoneImage" alt="DOG" />
         <div className="aboutDescriptions">
         <h1>T-Bone the dog</h1>
         <p>{data.characters.tBone}</p>
@@ -50,15 +53,15 @@ export default function About (props) {
 
 
       <div className="henwee">
-        <img alt="Horse" />
+        <img className="aniPics" id="henweeImage" alt="Horse" />
         <div className="aboutDescriptions">
         <h1>Henwee the horse</h1>
         <p>{data.characters.henwee}</p>
         </div>
       </div>
-
+      <Follow />
       <div className="wacky">
-        <img alt="DUCK" />
+        <img className="aniPics" id="wackyImage" alt="DUCK" />
         <div className="aboutDescriptions">
         <h1>Whacky Dacky the duck</h1>
         <p>{data.characters.whacky}</p>
@@ -66,13 +69,14 @@ export default function About (props) {
       </div>
 
       <div className="rooster">
-        <img alt="Rooster" />
+        <img className="aniPics" id="broosterImage" alt="Rooster" />
         <div className="aboutDescriptions">
         <h1> Brooster the Rooster</h1>
         <p>{data.characters.brooster}</p>
         </div>
       </div>
-
+      </div>
+      <img id="landscapeBanner" src={landscape}></img>
    </section>
     );
 }

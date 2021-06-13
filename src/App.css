@@ -1,3 +1,9 @@
+/* -----font------ */
+.roboto {
+  font-family: Roboto !important;
+}
+
+
 /* -----colors------ */
 
 .magenta-bg {
@@ -76,11 +82,18 @@
   background-color: #56d0fa;
 }
 
+/* .navbar-nav w-100 justify-content-around {
+  margin-left: 10%;
+  margin-right: 10%;
+} */
+
 #logo {
   position: absolute;
-  height: 150px;
+  top: -12px;
   left: -30px;
-  top: -10px;
+  height: 17vh;
+  width: 17%;
+  z-index: 10;
 }
 
 /* ------------HEADER SECTION--------------  */
@@ -156,11 +169,11 @@
 /* ------------Characters section--------------  */
 
 .characterDivs img {
-  position: absolute;
+  height: 380px;
 }
 .characterDivs {
   display: flex;
-  height: 45vh;
+  height: 50vh;
   top: 10vh;
   justify-content: space-between;
   padding: 1px;
@@ -196,9 +209,25 @@
   flex-direction: row;
 }
 
+#chickita {
+  position: absolute;
+  left: 180px;
+  height: 350px;
+}
+
+#chickitaName {
+  position: absolute;
+  left: 400px;
+  top: 1200px;
+}
+
+#coco {
+  position: absolute;
+  right: 400px;
+}
+
 #brooster {
   right: 70px;
-  height: 350px;
 }
 
 /* --------------VideoSection--------------  */
@@ -229,6 +258,7 @@
 .nextVids {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin: 25px;
 }
 
@@ -265,6 +295,11 @@
 }
 
 .tiktokLogo {
+  width: 100px;
+  height: 100px;
+}
+
+.youtubeLogo {
   width: 100px;
   height: 100px;
 }
@@ -313,7 +348,7 @@
   width: 100%;
   border-radius: 15px;
   padding-top: 100px;
-  text-align: right;
+  text-align: center;
 }
 
 .historyWithSon td {
@@ -338,8 +373,19 @@
 }
 
 /* ------------ About page ------------- */
+#aboutBanner {
+  width: 100%;
+  position: relative;
+}
+
+#landscapeBanner {
+  width: 100%;
+}
+
 .aboutSection {
+  position: absolute;
   font-size: 20px;
+  margin-top: -20px;
   background-color: #56d0fa;
   border-radius: 25px;
   z-index: inherit;
@@ -357,6 +403,14 @@
   text-align: left;
   color: white;
   padding-left: 1vh;
+}
+
+.aboutAnimals {
+  margin-top: 100vh;
+}
+
+.aniPics {
+  position: absolute;
 }
 
 .chikita {
@@ -377,6 +431,7 @@
 
 .chikita .aboutDescriptions {
   background-color: #e91572;
+  height: 40vh;
 }
 
 .chikita h1 {
@@ -446,7 +501,8 @@
 }
 
 .formDiv {
-  margin-top: 250px;
+  margin-top: -34px;
+  padding-top: 25px;
   border-radius: 15px;
   background-color: #56d0fa;
   padding-bottom: 25px;
@@ -466,7 +522,7 @@
   display: flex;
   flex-direction: column;
   width: 25%;
-  margin-left: 5%;
+  margin-left: 10%;
 }
 
 #emailForm input {
@@ -479,15 +535,15 @@
   border-radius: 10px;
   margin-top: 10px;
   height: 230px;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 10px;
 }
 
 #emailForm button {
   border-radius: 10px;
-  width: 20%;
-  margin-left: 5%;
+  margin-left: 40%;
+  margin-right: 40%;
   background-color: red;
   color: white;
 }
@@ -496,6 +552,7 @@
   margin-top: 5px;
   color: white;
 }
+
 
 @keyframes App-logo-spin {
   from {

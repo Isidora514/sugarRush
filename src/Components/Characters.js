@@ -1,6 +1,8 @@
 import React from "react";
 import data from './data/data.json'
 
+
+
 //character imports
 import chikita from "../images/home/chickita-hands-up.png"
 import coco from "../images/home/Coco-Cow-animation.png"
@@ -20,7 +22,7 @@ export default function Characters(props) {
 
 <div className="characterDivs">
       <div className="imageHolder">
-          <h2 className="magenta bolder">CHICKITA</h2>
+          <h2 id="chickitaName" className="magenta bolder">CHICKITA</h2>
           <img id="chickita" src={chikita} alt="chickita"></img >
         </div>
       <div className="descBox magenta-bg"> 
@@ -39,14 +41,14 @@ export default function Characters(props) {
       <button type="button" class="btn btn-primary btn-lg teal">Learn more about me!</button>
       </div>
       <div className="imageHolder">
-          <h2 className="teal">coco</h2>
+          <h2 id="cocoName" className="teal">COCO</h2>
           <img id="coco" src={coco} alt="coco"></img >
         </div>
     </div>
 
     <div className="characterDivs">
     <div className="imageHolder">
-          <h2 class="blue">T-Bone</h2>
+          <h2 class="blue">T-BONE</h2>
           <img id="tBone" src={tBone} alt="tbone"></img >
         </div>
        <div className="descBox blue-bg">  
@@ -65,14 +67,14 @@ export default function Characters(props) {
       <button type="button" class="btn btn-primary btn-lg lime">Learn more about me!</button>
         </div>
         <div className="imageHolder">
-          <h2 className="lime">henwee</h2>
+          <h2 className="lime">HENWEE</h2>
           <img id="henwee" src={henwee} alt="henwee"></img >
         </div>
     </div>
 
     <div className="characterDivs">
     <div className="imageHolder">
-          <h2 className="purple">Wacky Dacky</h2>
+          <h2 className="purple">WACKY DACKY</h2>
           <img id="wacky" src={wacky} alt="wacky"></img >
         </div>
       <div className="descBox purple-bg">  
@@ -91,7 +93,7 @@ export default function Characters(props) {
       <button type="button" class="btn btn-primary btn-lg green">Learn more about me!</button>
         </div>
         <div className="imageHolder">
-          <h2 className="green">Brooster</h2>
+          <h2 className="green">BROOSTER</h2>
           <img id="brooster" src={brooster} alt="Rooster"></img >
         </div>
     </div>

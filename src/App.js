@@ -20,6 +20,8 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 
 function App() {
+
+  
   return (
     <Router>
         <div className="App">
@@ -35,7 +37,6 @@ function App() {
         </Route>
         <Route path="/about">
           <About />
-          <Follow />
           <Footer />
         </Route>
         <Route path="/contact">
