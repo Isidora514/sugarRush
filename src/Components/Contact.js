@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import youtubeLogo from '../images/youtube-icon.png';
 import tiktokLogo from '../images/TikTok.png';
 import footerAnimals from '../images/home/Footer-animals.png'; 
-import barn from "../images/contact/barn-contact-1.png"
+import barn from "../images/contact/barnContact.jpeg"
 import house from "../images/contact/House-contact.png"
 import banner from "../images/contact/banner-contact.png"
 
@@ -34,7 +34,7 @@ export default function Contact (props) {
       <div className="grid">
 
     <div className="row1Contact">
-      <img className="houseContact" src={house} alt="house"></img >
+      <img className="houseContact" src={barn} alt="house"></img >
       <div className="followUsContact">
          <h1 className="magenta mb-4">FOLLOW US ON</h1>
          <h1 className="magenta mb-4">YOUTUBE AND TICKTOK</h1>

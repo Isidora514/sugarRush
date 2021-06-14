@@ -5,7 +5,7 @@ import landscape from "../images/about/landscape-foin-sceau-about.png"
 import Follow from "./Follow"
 
 
-import chikita from "../images/home/chickita-hands-up.png"
+import chikita from "../images/about/chikita-about.png"
 import coco from "../images/home/Coco-Cow-animation.png"
 import tBone from "../images/home/t-bone-dog.png"
 import henwee from "../images/home/Henwee-Horse.png"
@@ -31,14 +31,14 @@ export default function About (props) {
         <h1> Made by Parents <br/> that behave like children! </h1>
         <p>{story[0]}</p>
         <p>{story[1]}</p>
-        <p>{story[2]}</p>
-        <p>{story[3]}</p>
+
       </div>
       <div className="aboutAnimals">
       <div className="chikita">
         <img className="aniPics" id="chikitaImage" src={chikita} alt="bigchicken" />
         <div className="aboutDescriptions">
-        <h1>Chikita the chicken</h1>
+        <h1>CHIKITA</h1>
+        <h1>THE CHICKEN</h1>
         <p>{data.characters.chikita}</p>
         </div>
       </div>

@@ -3,11 +3,7 @@ import React, { useState, useEffect} from 'react';
 export default function Videos(props) {
   const videolist = [
   <iframe className="vids" src="https://www.youtube.com/embed/los4K5cif30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>, 
-  <iframe className="vids" src="https://www.youtube.com/embed/4wEO_JuON9E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>, 
-  <iframe className="vids" src="https://www.youtube.com/embed/ap90npnxZzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
-  <iframe className="vids" src="https://www.youtube.com/embed/ap90npnxZzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>,
-  <iframe className="vids" src="https://www.youtube.com/embed/ap90npnxZzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-]
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/1SK2-Mzfp24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]
 // let index =0 
 
 const [currentVideo, setCurrentVideo] = useState(0);
