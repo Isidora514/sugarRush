@@ -34,7 +34,7 @@ export default function About (props) {
 
       </div>
       <div className="aboutAnimals">
-      <div className="chikita">
+      <div id="chikitaRoute" className="chikita">
         <img className="aniPics" id="chikitaImage" src={chikita} alt="bigchicken" />
         <div className="aboutDescriptions">
         <h1>CHIKITA</h1>

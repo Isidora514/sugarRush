@@ -1,5 +1,11 @@
 import React from "react";
 import data from './data/data.json'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 
 
@@ -29,7 +35,7 @@ export default function Characters(props) {
       <div className="desc text-white"> 
         {data.characters.chikita}
       </div>
-      <button class="btn btn-primary btn-lg magenta">Learn more about me!</button>
+      <a href="/about/#chikitaRoute"><button class="btn btn-primary btn-lg magenta">Learn more about me!</button></a>
       </div>
     </div>
 

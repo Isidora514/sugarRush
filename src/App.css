@@ -86,23 +86,23 @@
 
 #nav {
   background-color: #56d0fa;
+  height: 19.76vh;
 }
 
 #nav h3 :hover {
   color: #e91572 !important;
 }
 
-/* .navbar-nav w-100 justify-content-around {
-  margin-left: 10%;
-  margin-right: 10%;
-} */
+.navbar-nav ul {
+  display: flex;
+}
 
 #logo {
   position: absolute;
   top: -12px;
   left: -30px;
-  height: 17vh;
-  width: 17%;
+  height: 16.96vh;
+  width: 13.57vw;
   z-index: 10;
 }
 
@@ -144,6 +144,7 @@
 #description {
   display: block;
   border: solid 1px lightgreen;
+  height: 48.23vh;
   background-color: #56d0fa;
   border-radius: 25px;
   margin-top: -25px;
@@ -168,22 +169,20 @@
 }
 
 #videoWindow {
-  /* width: 56%; */
+  position: absolute;
+  height: 61.94vh;
+  width: 58vw;
   border-radius: 25px;
   border: green 4px solid;
   z-index: 10;
-  position: absolute;
-  top: -30px;
+  top: -70px;
 }
 
 /* ------------Characters section--------------  */
 
-.characterDivs img {
-  height: 380px;
-}
 .characterDivs {
   display: flex;
-  height: 50vh;
+  height: 85.54vh;
   top: 10vh;
   justify-content: space-between;
   padding: 1px;
@@ -220,8 +219,9 @@
 }
 
 #chickita {
-  position: absolute;
-  left: 180px;
+  /* position: absolute; */
+  height: 71.78vh;
+  width: 28.85vw;
   height: 350px;
 }
 

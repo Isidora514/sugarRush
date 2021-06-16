@@ -3,10 +3,10 @@ import data from './data/data.json'
 import banner from "../images/media/Banner-mediae.png";
 import dogDancing from "../images/media/dog-dancing-media.png";
 
-import article1 from '../images/media/cockadoo-virgin-Rdio.png'
+import article1 from '../images/media/jpeg/cockadoo-virgin-Rdio.jpg'
 import article2 from '../images/media/cockadoo-global-news.png'
-import article3 from '../images/media/2bros-city-news.png'
-import article4 from '../images/media/Laval-fam-MTL-Gazette.png'
+import article3 from '../images/media/jpeg/2bros-city-news.jpeg'
+import article4 from '../images/media/jpeg/Laval-fam-MTL-Gazette.jpg'
 
 import globalNews from '../images/media/logo-icons-press/Global-News.png'
 import cjad from '../images/media/logo-icons-press/CJAD.png'
@@ -52,7 +52,8 @@ export default function About (props) {
         <h2>ARTICLES</h2>
 
         <div className="mediaArticles">
-          <a href="https://www.iheartradio.ca/virginradio/montreal/audio-video/the-new-baby-shark-1.15351110" target="_blank"><img width="400" height="400" scr={article1} /></a>
+          <img src={article1} />
+
           <div classname="textDivs">
             <h3>Virgin Radio</h3>
             <h3>THE NEW BABY SHARK!</h3>
@@ -61,7 +62,8 @@ export default function About (props) {
         </div>
 
         <div className="mediaArticles">
-          <a href="https://globalnews.ca/news/7922304/could-this-montreal-made-earworm-become-the-next-baby-shark/" target="_blank"><img width="400" height="400" scr={article2} /></a>
+          <img src={article2} />
+
           <div classname="textDivs">
             <h3>Global News</h3>
             <h3>Could this Montreal-made earworm become the next 'baby Shark'</h3>
@@ -70,7 +72,8 @@ export default function About (props) {
         </div>
 
         <div className="mediaArticles">
-          <a href="https://montreal.citynews.ca/2021/06/05/montreal-boy-writes-catchy-kids-song-at-age-7-with-help-of-younger-brother/" target="_blank"><img width="400" height="400" scr={article3} /></a>
+          <img src={globalNews} />
+
           <div classname="textDivs">
             <h3>City News Montreal</h3>
             <h3>Montreal boy writes catchy kids song at age 7 with help of younger brother</h3>
@@ -79,7 +82,8 @@ export default function About (props) {
         </div>
 
         <div className="mediaArticles">
-          <a href="https://montrealgazette.com/entertainment/its-cock-a-doodle-time-laval-familys-song-for-kids-debuts-friday-morning" target="_blank"><img width="400" height="400" scr={article4} /></a>
+          <img src={article4} />
+
           <div classname="textDivs">
             <h3>Montreal Gazette</h3>
             <h3>It's Cock-a-Doodle Time: Laval family's song for kids debuts Friday morning</h3>
