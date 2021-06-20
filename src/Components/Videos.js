@@ -1,9 +1,10 @@
 import React, { useState, useEffect} from 'react';
+import abreuvoir from '../images/home/abreuvoir.png';
 
 export default function Videos(props) {
   const videolist = [
-  <iframe className="vids" src="https://www.youtube.com/embed/los4K5cif30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>, 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/1SK2-Mzfp24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]
+  <iframe className="vid" width="560" height="315" src="https://www.youtube.com/embed/los4K5cif30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>, 
+  <iframe className="vid" width="560" height="315" src="https://www.youtube.com/embed/1SK2-Mzfp24" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>]
 // let index =0 
 
 const [currentVideo, setCurrentVideo] = useState(0);
@@ -70,30 +71,19 @@ const goToPrevVideo = () => {
 
   return (
     <section className="videoSection">
-      <div>
-      <h1 className="magenta">More Youtube videos</h1>
-      </div>
-      <div className="currentVideoWrapper">
-          {/* <button className="btn btn-transparent magenta" onClick={()=> goToPrevVideo()} > Previous </button> */}
-          
-          <div className="Currentvideo mx-5">
-          {videolist[currentVideo]}
-          </div>
 
-          {/* Place fontawesome arrow in here */}
-          {/* <button className="btn btn-transparent magenta" onClick={()=> goToNextVideo()} > Next</button> */}
-      </div>
-
-        <div className="nextVids">
-          <div className="divRow1">
-          {videolist[nextFirst]}
-          {videolist[nextSecond]}
-          </div>
-          <div className="divRow2">
-          {videolist[nextThird]}
-          {videolist[nextFourth]}
-          </div>
+      <div className="topDiv">
+        <div id="imgDiv">
+        <img src={abreuvoir} />
         </div>
+        <h1 className="magenta farmer">More Youtube videos</h1>
+      </div>
+
+      <div className="moreVidSection">          
+          {videolist[0]}
+          {videolist[1]}
+      </div>
+
     </section>
   )
 }

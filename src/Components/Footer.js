@@ -14,9 +14,13 @@ export default function Footer(props) {
     <section className="footerSection">
 
     <div className="footer mt-3">
-      <img src={footerAnimals} /> 
-      <h1 className="magenta mb-4">BYE BYE SEE YOU SOON!</h1>
+      <div className="footBanner">
+      <img src={footerAnimals} />
+      </div> 
+      <div className="footCenter">
+      <h1 className="magenta mb-4 farmer">MADE FOR KIDS BY KIDS</h1>
       <p className="disclaimer">For Entertainment, Educational and Music purpose, only for kids</p>
+      </div>
     </div>
 
     <div>

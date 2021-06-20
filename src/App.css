@@ -2,9 +2,20 @@
 
 /* !!!!!!!!! Need to use this font for all H-tags !!!!!!!!! */
 
+p {
+  font-size: 15px;
+}
 
 
 /* -----colors------ */
+
+.yellow-bg {
+  background-color: #f9da15;
+}
+
+.yellow {
+  color: #f9da15 !important;
+}
 
 .magenta-bg {
   background-color: #e91572;
@@ -84,630 +95,346 @@
 
 /* ------------NAV SECTION--------------  */
 
-#nav {
-  background-color: #56d0fa;
-  height: 19.76vh;
+
+nav {
+width: 100%;
+height: 134px;
+align-items: center;
+padding: 0;
+display:flex;
+justify-content: space-evenly;
 }
 
-#nav h3 :hover {
-  color: #e91572 !important;
+#logoDiv {
+  height: 115px;
+  width: 173px;
 }
 
-.navbar-nav ul {
+#logoDiv img {
+  height: 100%;
+  width: 100%;
+}
+
+ul {
+  padding-left: 100px;
   display: flex;
+  align-items: center;
+  list-style: none;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
-#logo {
-  position: absolute;
-  top: -12px;
-  left: -30px;
-  height: 16.96vh;
-  width: 13.57vw;
-  z-index: 10;
+li {
+  padding: 15px 20px;
 }
 
 /* ------------HEADER SECTION--------------  */
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
 
-.App-header h2 {
-  font-family: "Roboto" !important;
-  font-size: 18px;
-  font: white;
-}
-
-#background {
-  display: block;
-  background-image: url(images/farm.png);
-  background-size: 100%;
-  background-color: yellowgreen;
-  height: 30vh;
-}
-
-#banner {
-  width: 100%;
-  z-index: -10;
+#headerBanner {
   position: relative;
-}
-
-.bannerDiv {
+  width: 100%;
+  height: 170px;
   z-index: -10;
 }
 
-#description {
-  display: block;
-  border: solid 1px lightgreen;
-  height: 48.23vh;
-  background-color: #56d0fa;
-  border-radius: 25px;
+.welcomeDiv {
+  color: white;
+  border-radius: 40px;
+  height: 600px;
   margin-top: -25px;
-  padding: 2rem 2rem 40px 2rem;
-  top: 35vh;
   z-index: 10;
 }
 
-#videodiv {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  height: 250px;
+.welcomeDiv h1 {
+  font-size: 30px;
+  padding: 10px;
 }
 
-#videodiv > .chicken {
-  width: 100px;
-  height: 100px;
+.welcomeDiv p {
+  padding: 10px;
+  font-size: 15px;
+}
+
+#videoDiv {
+  display: flex;
+  position: relative;
+  flex-direction: column-reverse;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: 94%;
+}
+
+.chicken {
   position: absolute;
-  top: -15px;
-  left: 100px;
+  bottom: -120px;
+  left: -5px;
 }
 
 #videoWindow {
-  position: absolute;
-  height: 61.94vh;
-  width: 58vw;
-  border-radius: 25px;
-  border: green 4px solid;
-  z-index: 10;
-  top: -70px;
-}
-
-/* ------------Characters section--------------  */
-
-.characterDivs {
-  display: flex;
-  height: 85.54vh;
-  top: 10vh;
-  justify-content: space-between;
-  padding: 1px;
-}
-
-.descBox {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 50%;
   height: 100%;
-  margin: 0;
-  padding: 2rem 3rem;
+  width: 100%;
+  position: absolute;
   border-radius: 25px;
+  border: green solid 5px;
+  z-index: 10;
+  top: -45px;
 }
 
-.descBox button {
-  background-color: white;
-  font-weight: 900;
-  width: 70%;
-  margin: 0 auto;
-  border: none;
+/* ------------Character SECTION--------------  */
+
+.characterSection {
+  padding-top: 160px;
 }
 
-.desc {
+.imgAndName {
+  display: flex;
+  flex-direction: column-reverse;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  padding-bottom: 15px;
 }
 
-.imageHolder {
-  display: flex;
-  flex-direction: row;
-}
 
-#chickita {
-  /* position: absolute; */
-  height: 71.78vh;
-  width: 28.85vw;
-  height: 350px;
-}
-
-#chickitaName {
-  position: absolute;
-  left: 400px;
-  top: 1200px;
-}
-
-#coco {
-  position: absolute;
-  right: 400px;
-}
-
-#brooster {
-  right: 70px;
-}
-
-/* --------------VideoSection--------------  */
-
-.videoSection h1 {
-  margin-top: 50px;
-  color: red;
-  font-size: 35px;
-}
-
-.currentVideoWrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.Currentvideo {
-  /* width: 460px;
-  height: 265px;
-  padding: 2vh; */
-}
-
-.videos svg {
-  padding: 2vh;
-}
-
-.nextVids {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 25px;
-}
-
-.vids {
-  width: 460px;
-  height: 265px;
-}
-
-.divRow1 {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 25px;
-}
-
-.divRow2 {
-  padding-top: 2vh;
-  display: flex;
-  justify-content: space-evenly;
-  margin: 25px;
-}
-
-/* ------------------Follow section---------------  */
-#followSection h1 {
-  margin-top: 50px;
-  font-weight: 800;
+.imgAndName h1 {
   font-size: 40px;
 }
 
-.followLinks {
+.charDiv {
   display: flex;
-  justify-content: space-evenly;
-  padding: 5vh;
+  flex-direction: column;
+  margin-bottom: 25px;
 }
 
-.tiktokLogo {
-  width: 100px;
-  height: 100px;
+.col {
+  flex-direction: column-reverse !important;
 }
 
-.youtubeLogo {
-  width: 100px;
-  height: 100px;
-}
 
-/* ------------------Story section---------------  */
-
-/* .footerSection p {
-  padding: 1vh;
-} */
-
-.whySugarRush {
-  color: white;
-  display: flex;
-  width: 100%;
-}
-
-.whySugarRush div {
-  border-radius: 30px;
-  width: 100%;
-}
-
-.whySugarRush h1 {
-  font-size: 35px;
-  text-align: left;
-  margin-top: -10px;
-}
-
-.whySugarRush p {
-  text-align: left;
-}
-
-.midImageDiv {
+.charImgDivs {
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  height: 250px;
-  width: 70%;
+  height: 173px;
+  width: 131px;
 }
 
-.midImage {
-  width: 350px;
-  position: absolute;
-  top: -40px;
+.charImgDivBone {
+  margin-right: auto;
+  position: relative;
+  height: 173px;
+  width: 131px;
 }
 
-.historyWithSon div {
+.charImgDivRooster {
+  margin-left: auto;
+  position: relative;
+  height: 173px;
+  width: 131px;
+}
+
+.charImgDivs img {
+  height: 100%;
+  width: 100%
+}
+
+#tBoneImg {
+  height: 100%;
+  width: 100%
+}
+
+#broosterImg {
+  height: 100%;
+  width: 100%
+}
+
+.descBox {
+  border-radius: 40px;
   color: white;
-  width: 100%;
-  border-radius: 15px;
-  padding-top: 100px;
-  text-align: center;
+  height: 335px;
+  /* padding-bottom: 25px; */
 }
 
-.historyWithSon td {
-  border-radius: 30px;
-  width: 100%;
-}
-
-.historyWithSon h1 {
-  font-size: 35px;
+.funFacts {
   text-align: right;
-  padding-right: 20px;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 25px;
 }
 
-
-/* /// footer section ------------- */
-
-.footer > img {
-  width: 70%;
-}
-.disclaimer {
-  font-weight: bolder;
+.descBox li {
+  direction: rtl;
+  text-align: right;
+  padding-top: 0;
+  padding-right: 50px;
 }
 
-/* ------------ About page ------------- */
-#aboutBanner {
-  width: 100%;
-  position: relative;
-}
-
-#landscapeBanner {
-  width: 100%;
-}
-
-.aboutSection {
-  position: absolute;
-  font-size: 20px;
-  margin-top: -20px;
-  background-color: #56d0fa;
-  border-radius: 25px;
-  z-index: inherit;
-}
-
-.aboutSection h1 {
-  margin-top: 0;
-  text-align: left;
-  color: white;
-  padding-left: 1vh;
-}
-
-.aboutSection p {
-  margin-top: 0;
-  text-align: left;
-  color: white;
-  padding-left: 1vh;
-}
-
-.aboutAnimals {
-  margin-top: 100vh;
-}
-
-.grid {
-  padding-top: 200px;
-}
-
-.aboutDivs {
-  display: flex;
-  height: 50vh;
-  top: 10vh;
-  justify-content: space-between;
-  padding: 1px;
-}
-
-.aboutDescriptions {
-  border-radius: 25px;
-  margin-bottom: 13vh;
-  font-size: 18px;
-  color: whitesmoke;
-}
-
-.aniPics {
-  position: absolute;
-}
-
-.chikita {
-  display: flex;
-  text-align: left;
-}
-
-.chikita h1 {
-margin-top: -12px;
-margin-left: 5%;
-padding: 0px;
-}
-
-.chikita p {
-  margin-left: 5%;
-  }
-
-#chikitaImage {
-  height: 60vh;
-  left: 33.35vw;
-  top: 110vh;
-}
-
-.chikita .aboutDescriptions {
-  background-color: #e91572;
-  height: 33vh;
-}
-
-/* NOT SURE ABOUT THIS ONE ----------------------------- */
-.coco {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.coco .aboutDescriptions {
-  background-color: #65f3d7;
-  width: 45%;
-}
-
-.coco p {
-  font-size: 18px;
-  padding-top: 25px;
+.descBox button {
+  padding-top: 10px;
   text-align: center;
+  width: 50%;
+  height: 40px;
+  font-size: 40px;
+  background-color: white;
 }
 
-.tBone {
-  display: flex;
-  flex-direction: row-reverse;
+.buttonDiv {
+margin-top: 30px;
 }
 
-.tBone .aboutDescriptions {
-  background-color: #56d0fa;
+button h2 {
+  font-size: 17px;
+}
+
+/* ------------VIDEO SECTION--------------  */
+
+#imgDiv {
+  height: 135px;
+  width: 156px;
+}
+
+#imgDiv img {
+  height: 100%;
   width: 100%;
 }
 
-.tBone img {
+.topDiv h1 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 30px;
 }
 
-.tBone p {
-  font-size: 18px;
+.moreVidSection {
   position: relative;
-  text-align: left;
-}
-
-.henwee .aboutDescriptions {
-  background-color: #e2ed3a;
-  width: 50%;
-}
-
-.wacky .aboutDescriptions {
-  background-color: #7152be;
-  width: 95%;
-}
-
-.rooster .aboutDescriptions {
-  background-color: #63c828;
-  width: 70%;
+  height: 211px;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* /// contact page ------------------ */
-
-#contactPage {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.formDiv {
-  margin-top: -34px;
-  padding-top: 25px;
+.vid {
   border-radius: 15px;
-  background-color: #56d0fa;
-  padding-bottom: 50px;
-  margin-bottom: 100px;
+  box-shadow: 3px 5px grey;
+  padding-top: 10px;
+  height: 100%;
+  width: 100%;
 }
 
-.formDiv h1 {
-  margin-top: -13px;
-  color: white;
-}
+/* ------------lyrics SECTION--------------  */
 
-#emailForm {
+#lyricsSection {
   display: flex;
   flex-direction: column;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 300px;
 }
 
-.nameAndEmail {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-  margin-left: 10%;
+#lyricsSection p {
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-#emailForm input {
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+/* ------------follow SECTION--------------  */
+#followSection {
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 120px;
 }
 
-#emailForm textarea {
-  border-radius: 10px;
-  margin-top: 10px;
-  height: 230px;
+
+#followSection h1 {
+  font-size: 30px;
   margin-left: 10%;
   margin-right: 10%;
-  margin-bottom: 10px;
 }
 
-#emailForm button {
-  border-radius: 10px;
-  margin-left: 40%;
-  margin-right: 40%;
-  background-color: red;
-  color: white;
-}
-
-#emailForm button h3 {
-  margin-top: 5px;
-  color: white;
-}
-
-.grid {
-  margin-top: -90px;
+.followLinks {
   display: flex;
   flex-direction: column;
-}
-
-.houseContact {
-  width: 50%;
-}
-
-.followUsContact {
-  padding-top: 200px;
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-.contactLinkWrap {
-  padding-top: 80px;
-  display: flex;
-  align-items: center;
   justify-content: space-around;
 }
 
-.contactFollowLinks {
-  display: flex;
-  
-  height: 100px;
-  width: 100px;
+.followLinks img {
+  margin: 10px;
+  height: 65px;
+  width: 50px;
 }
 
-.row1Contact {
-  display: flex;
-}
-
-.row2Contact {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
-.contactImgs {
-  display: flex;
-  justify-content:flex-end;
-}
-
-#tBoneContact {
+/* !!!!!!!! remember to change this display when destop view */
+#potatoBag {
+  height: 113px;
+  width: 107px;
+  left: -18px;
+  bottom: 0;
   position: absolute;
-  right: 45%;
-  top: 1280px;
 }
 
-#wackyContact {
-  display: flex;
+#potatoBag2 {
+  position: absolute;
+  height: 114px;
+  width: 95px;
+  right: -5px;
+  bottom: 10px
 }
 
+/* ------------story SECTION--------------  */
 
-/* /// Media section /// */
+.whySugarRush div {
+border-radius: 50px;
+}
 
-.pressRoomSection {
+.whySugarRush h1 {
+  padding-top: 10px;
+  margin-top: 20px;
+  }
+
+.whySugarRush p {
+    color: white;
+  }
+
+.midImageDiv {
   display: flex;
-  width: 100%;
+  align-items: center;
   justify-content: center;
-  align-items: center;
-  position: absolute;
-  margin-top: -20px;
-  background-color: #56d0fa;
-  color: #e91572;
-  border-radius: 15px;
-  height: 35vh;
-  z-index: inherit;
-}
-
-.featuredSection {
-  padding-top: 38vh;
-}
-
-.featuredImgs {
-  display: flex;
-  align-items: center;
-  justify-content:space-evenly;
-  margin: 30px;
-}
-
-.articleSection h2 {
-  text-align: left;
-  margin-left: 5%;
-}
-
-.articleSection h3 {
-  text-align: left;
-  margin-left: 10%;
-}
-
-.articleSection p {
-  text-align: left;
-  margin-left: 10%;
-}
-
-.articleSection img {
-  text-align: left;
-  border-radius: 15px;
-  width: 40%;
-}
-
-.mediaArticles {
-  display: flex;
-  margin: 5%;
-}
-
-#dogDancing {
-  border-bottom: solid #56d0fa 5px;
-  margin-left: 35%;
-  margin-right: 35%;
-  padding-bottom: 5vh;
-  margin-bottom: 5vh;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  height: 192px;
+  width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+.midImageDiv img { 
+  margin-bottom: -45px;
+  height: 100%;
+  width: 176px;
   }
-}
 
+  .historyWithSon div {
+    border-radius: 40px;
+  }
 
-.roboto {
-  font-family: "Roboto" !important;
-}
+  .historyWithSon h1 {
+    padding-top: 25px;
+    color: white;
+    text-align: right;
+  }
+
+  .historyWithSon p {
+    color: white;
+    text-align: left;
+  }
+
+  /* ------------footer SECTION--------------  */
+
+  .footBanner {
+    width: 100%;
+    height: 97px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .footBanner img {
+    height: 100%;
+    width: 100%;
+  }

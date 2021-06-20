@@ -41,8 +41,8 @@ export default function Form() {
         field="message"
         errors={state.errors}
       />
-      <button type="submit" disabled={state.submitting}>
-        <h3>Submit</h3>
+      <button id="#formButton" type="submit" disabled={state.submitting}>
+        <h3 className="blue">Submit</h3>
       </button>
     </form>
   );

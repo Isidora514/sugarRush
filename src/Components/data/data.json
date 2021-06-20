@@ -1,13 +1,43 @@
 {
+  "header": {
+    "banner": "/static/media/Home-banner.0d4321d9.png",
+    "welcome": "Welcome to Sugar Rush Jams entertainment, music and educational channel for kids. SugarRushJams was created by Aiden-7 with the help of his brother Noah-5. Together they wrote the song named CockADoodle Time in early 2021. Their Dad, made them promise, if they completed the song, he would have it recorded. A few Weeks later, the song was recorded and a family friend upon hearing it, made the animation with the characters that the kids and their dad had made. for the latest videos, updates, and surprises, visit our social media channels: Tiktok, Facebook to see what Aiden and Noad will come up with next. What started out as a Fun Family project to creatively pass the time during lockdown, Aiden and Noah have become local celebrities and they plan to continue creating a wide variety of family content by Kids for Kids. Stay tuned for more great updates."
+  },
 
-"characters": {
-  "chikita": "She is a Sassy chiken and mama to her chicks. She's fun and curious and likes to know everything that is happening on the farm. Some would even say she's was a little bit noisy! She's also a prankster and lives telling knock knock jokes!",
-  "coco":  "She's the wise one of the bunch and the other farm animals look up to her. She keeps everyone in check and the other farm animals respect her and know when she means business. THere's no messing around with Coco! SHe asserts herself but also has a fun side. No one dances better than she can!",
-  "tBone": "He's a small dog with a big personality and you guessed it, he loves bones! Sometimes he thinks he's a chihuahua and other ties he thinks he's a dalmatian. Can you help us figure out what kind of dog he is?",
-  "henwee": "He's the best in the west and loves adventures, never says no to a quest. He loves country music and to throw barn yard parties for his friends. He loves hay but will never say no to a good carrot or apple.",
-  "whacky": "What can we say about Whacky Dacky? He's a little bit wacky and a little bit quaky and is just one happy-go-lucky ducky. He's the kind of dick you just want to hang out with. He also gives the best hugs ever!",
-  "brooster": "Brooster the rooster makes sure everybody on the farm is up and ready. At the crack of dawn he cockleddoodledoos to mark the start of a new day of activities, learning and play!"
+  "smallChick": {
+    "img": "/static/media/Poussins.abad4d35.png"
+  },
 
-}
-  
-}
+  "chikita": {
+      "bio": "She is a Sassy chiken and mama to her chicks. She's fun and curious and likes to know everything that is happening on the farm. Some would even say she's was a little bit noisy! She's also a prankster and lives telling knock knock jokes!", 
+      "img1": "/static/media/chickita-hands-up.09cf0f87.png"
+    }, 
+
+    "coco": {
+      "bio": "She's the wise one of the bunch and the other farm animals look up to her. She keeps everyone in check and the other farm animals respect her and know when she means business. There's no messing around with Coco! SHe asserts herself but also has a fun side. No one dances better than she can!",
+      "img1": "/static/media/Coco-Cow-animation.7b881224.png"
+    },
+
+    "tBone": {
+      "bio": "He's a small dog with a big personality and you guessed it, he loves bones! Sometimes he thinks he's a chihuahua and other ties he thinks he's a dalmatian. Can you help us figure out what kind of dog he is?", 
+      "img1": "/static/media/t-bone-dog.59eb035b.png"
+    }, 
+
+    "henwee": {
+      "bio": "He’s the best in the west and loves adventures, never says no to a quest. He loves country music and to throw barn yard parties for his friends. He loves hay but will never say no to a good carrot or apple.",
+      "img1": "/static/media/Henwee-Horse.48a0d547.png"
+
+    }, 
+
+    "whacky": {
+      "bio": "What can we say about Whacky Dacky? He's a little bit wacky and a little bit quaky and is just one happy-go-lucky ducky. He's the kind of dick you just want to hang out with. He also gives the best hugs ever!",
+      "img1": "/static/media/Wacky-ducky.a0f044fe.png"
+    },
+
+    "brooster": {
+      "bio": "Brooster the rooster makes sure everybody on the farm is up and ready. At the crack of dawn he cockleddoodledoos to mark the start of a new day of activities, learning and play!", 
+      "img1": "/static/media/Brooster-Rooster.3853260e.png"
+    }, 
+
+    "media": ""
+  }
