@@ -37,7 +37,7 @@ export default function About (props) {
       </div>
       
       <div className="pressRoomSection blue-bg">
-        <h1>COCK A DOODLE TIME -PRESS ROOM</h1>
+        <h1 className="farmer">COCK A DOODLE TIME -PRESS ROOM</h1>
       </div>
 
       <div className="featuredSection">

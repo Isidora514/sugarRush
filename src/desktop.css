@@ -2,6 +2,10 @@ p {
     font-size: 15px;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   ul {
     list-style: none;
     text-decoration: none;
@@ -88,7 +92,7 @@ p {
     }
 
     html {
-      max-width: 1440px;
+      width: 100%;
     }
 
     .App {
@@ -313,7 +317,7 @@ p {
   .descBox button {
     background-color: white;
     text-align: center;
-    border-radius: 15px;
+    border-radius: 30px;
     height: 80px;
     width: 250px;
   }
@@ -361,7 +365,7 @@ p {
 }
 
 .vid {
-  border-radius: 15px;
+  border-radius: 30px;
   margin: 15px;
 }
 
@@ -393,7 +397,10 @@ p {
 .followLinks {
   position: relative;
   display: flex;
-  justify-content: space-evenly;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   padding-bottom: 200px;
 }
 
@@ -472,7 +479,7 @@ padding: 1px;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 15px;
+  border-radius: 30px;
   width: 100%;
 }
 
@@ -514,7 +521,7 @@ padding: 1px;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 15px;
+  border-radius: 30px;
   width: 100%;
   height: 720px;
   margin-top: -100px;
@@ -541,5 +548,523 @@ padding: 1px;
   text-align: right;
   margin: 5%;
 }
+
+/* ------------------About section---------------  */
+#aboutPage h1 {
+  font-size: 60px;
+  color: white;
+}
+
+#aboutPage .followLinks {
+  display: flex;
+}
+
+#aboutPage h2 {
+  font-size: 35px;
+  color: white;
+}
+
+#aboutPage h3 {
+  font-size: 70px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 3%
+}
+
+#aboutBanner {
+  position: relative;
+  display: block;
+  height: 421px;
+  width: 100%;
+  z-index: -10;
+}
+
+#aboutBanner img {
+  height: 100%;
+  width: 100%;
+}
+
+.aLittleMore {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: -35px;
+  border-radius: 25px;
+  width: 100%;
+  color: white;
+  margin-bottom: 120px;
+  z-index: 10;
+}
+
+.aLittleMore h1 {
+  font-size: 60px;
+  margin: 0;
+  text-align: start;
+  margin-left: 3%;
+}
+
+.aLittleMore p {
+  font-size: 32px;
+  margin: 0;
+  text-align: start;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.chikSection {
+  position: relative;
+  display: flex;
+  padding-top: 40vh;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  padding-bottom: 10vh;
+}
+
+.chikSection img {
+  position: absolute;
+  right: 350px;
+  top: -300px;
+}
+
+#chikitaAbout {
+  border-radius: 15px;
+  color: white;
+}
+
+#chikitaAbout h1 {
+  margin-top: -15px;
+  font-size: 50px;
+  text-align: left;
+}
+
+#chikitaAbout p {
+  font-size: 25px;
+  padding-top: 5%;
+}
+
+.cocoSection {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+#cocoAbout {
+  width: 45%;
+  border-radius: 15px;
+}
+
+#cocoAbout h1 {
+margin-top: -15px
+}
+
+#cocoAbout p {
+  color: white;
+  font-size: 25px;
+  padding-top: 5%;
+  }
+
+.chickAndBench {
+  position: absolute;
+  width: 100%;
+}
+
+#lilChickOnBench {
+  position: absolute;
+  right: 70px;
+  top: -100px;
+  z-index: 10;
+}
+
+#lilChickOnBench img {
+  height: 100%;
+  width: 100%;
+}
+
+#lilBench {
+  position: absolute;
+  right: 0;
+  z-index: -10;
+}
+
+#lilBench img {
+height: 100%;
+width: 100%;
+}
+
+.tBdiv
+{
+  position: relative;
+}
+
+.tBoneSection {
+  position: relative;
+  padding-top: 15vh;
+}
+
+#jumpingTBone {
+  position: absolute;
+  left: 18vw;
+  top: -15.19vh;
+}
+
+#tBoneAbout {
+  border-radius: 15px;
+  padding: 25px;
+}
+
+#tBoneAbout h1 {
+  text-align: right;
+}
+
+
+.henweeSection {
+  display: flex;
+  padding-top: 8vh;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.henweeSection img {
+  padding-left: 28.80vw;
+}
+
+#henweeAbout {
+  width: 45%;
+  border-radius: 15px;
+}
+
+#henweeAbout h1 {
+margin-top: -15px
+}
+
+#henweeAbout p {
+  margin: 15px;
+  }
+
+#poussinClo {
+  position: absolute;
+  left: 18vw;
+  top: -13.83vh;
+}
+
+#poussinClo2 {
+  position: absolute;
+  left: 10.79vw;
+  top: -13.83vh;
+}
+
+#cloture {
+  position: absolute;
+  left: 0;
+  z-index: -10;
+}
+
+.duckSection {
+  position: relative;
+  display: flex;
+  margin-top: -15vh;
+  padding-top: 45vh;
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  padding-bottom: 10vh;
+}
+
+.duckSection img {
+  position: absolute;
+  right: 350px;
+  top: 0;
+}
+
+#duckAbout {
+  border-radius: 15px;
+  color: white;
+}
+
+#duckAbout h1 {
+  margin-top: -15px;
+  font-size: 3em;
+  text-align: left;
+}
+
+#duckAbout h2 {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+.broosterSection {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  padding-bottom: 10vh;
+}
+
+#broosterAbout {
+  width: 45%;
+  border-radius: 15px;
+}
+
+#broosterAbout h1 {
+margin-top: -15px
+}
+
+#broosterAbout h2 {
+  margin: 15px;
+  }
+
+#landscape {
+  position: relative;
+  display: block;
+  height: 364px;
+  width: 100%;
+  z-index: -10;
+}
+
+#landscape img {
+  height: 100%;
+  width: 100%;
+  z-index: -10;
+}
+
+.moreFriendsAndButton {
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.madeByAbout {
+  margin-top: -10vh;
+  border-radius: 25px;
+  z-index: 10;
+}
+
+.madeByAbout h1 {
+padding-top: 50px;
+}
+
+.madeByAbout p {
+  font-size: 32px;
+  color: white;
+  padding-bottom: 50px;
+  }
+
+/* ------------------Media section---------------  */
+
+#mediaBanner {
+  height: 421px;
+  width: 100%;
+}
+
+#mediaBanner img {
+  width: 100%;
+}
+
+.pressRoomSection {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin-top: -95px;
+  background-color: #56d0fa;
+  color: #e91572;
+  border-radius: 15px;
+  height: 35vh;
+  z-index: inherit;
+}
+
+.pressRoomSection h1 {
+  font-size: 90px;
+}
+
+.featuredSection {
+  padding-top: 38vh;
+}
+
+.featuredSection h1 {
+  font-size: 70px;
+}
+
+.featuredImgs {
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  margin: 30px;
+}
+
+.articleSection h3 {
+  font-size: 30px;
+  text-align: left;
+  padding-top: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2vw;
+}
+
+.articleSection p {
+  font-size: 25px;
+  text-align: left;
+  margin-left: 2vw;
+}
+
+.mediaArticles {
+  display: flex;
+  margin: 5vh;
+}
+
+.mediaArticles img {
+height: 53.17vh;
+width: 44.13vw;
+}
+
+#dogDancing {
+  border-bottom: 2px #56d0fa solid;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 3%;
+  margin-bottom: 3%;
+}
+
+/* ------------------CONTACT section---------------  */
+
+#banner {
+  position: relative;
+  width: 100%;
+  z-index: -10;
+}
+
+.formDiv {
+  padding-top: 55px;
+  border-radius: 25px;
+  margin-top: -45px;
+  z-index: 10;
+  padding-left: 2vw;
+}
+
+.formDiv h1 {
+  font-size: 60px;
+  color: white;
+  text-align: left;
+}
+
+#emailForm {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2%;
+}
+
+.nameAndEmail {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameAndEmail #Name {
+  width: 25%;
+  height: 53px;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+.nameAndEmail #email {
+  width: 25%;
+  height: 53px;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+#message {
+  height: 347px;
+  width: 66%;
+  margin-bottom: 2%;
+}
+
+#emailForm button {
+  border-radius: 25px;
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 20%;
+}
+
+#emailForm button h3 {
+  font-size: 20px;
+}
+
+.contactImgs {
+  padding-top: 5vh;
+  display: flex;
+} 
+
+.imgDiv1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -10px;
+  width: 50%;
+}
+
+.imgDiv2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -10px;
+  width: 50%;
+}
+
+.row1Contact {
+  display: flex;
+}
+
+.houseContact {
+  width: 50%;
+}
+
+
+.followUsContact {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.followUsContact h1 {
+  margin: 0;
+}
+
+.contactFollowLinks {
+  margin: 40px;
+  height: 148px;
+  width: 172px;
+}
+
+.row2Contact {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.contactButtonDiv {
+  display: flex;
+  align-items: center;
+}
+
+.contactButtonDiv button {
+  width: 150%;
+  /* height: 80px; */
+  color: white;
+  margin-left: -150%;
+ }
+
+.contactButtonDiv button h2 {
+ color: white;
+ font-size: 35px;
+}
+
+#wackyContact {
+  display: flex;
+}
+
 
 }

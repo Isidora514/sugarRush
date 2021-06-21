@@ -70,7 +70,7 @@ export default function About (props) {
       {/* Follow */}
 
       <section id="followSection">
-    <h1 className='magenta'> Follow us on Tiktok! </h1>
+    <h1 className='magenta farmer'> Follow us on Tiktok! </h1>
     <div className="followLinks">
     <a href="https://www.tiktok.com/@sugarrushjams?lang=en" target="_blank"><img className="tiktokLogo" src={tikTok} /></a>
     <div className="chickAndBench">
@@ -111,7 +111,7 @@ export default function About (props) {
       </div>
 
       <section id="followSection">
-        <h1 className='magenta'> Follow us on Youtube!</h1>
+        <h1 className='magenta farmer'> Follow us on Youtube!</h1>
         <div className="followLinks">
           <div className="twoChickOnBench">
             <div id="poussinClo">
