@@ -24,8 +24,8 @@ console.log(smallChicken)
         <p className="welcomeText">{content[2]}</p>
       </div>
       <div id="videoDiv">
-        <div>
-         <img className="chicken" src={data.smallChick.img} />
+        <div className="chicken">
+         <img src={data.smallChick.img} />
          </div>
       <iframe id="videoWindow" src="https://www.youtube.com/embed/los4K5cif30" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>

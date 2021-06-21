@@ -1,6 +1,7 @@
 /* -----font------ */
 
 /* !!!!!!!!! Need to use this font for all H-tags !!!!!!!!! */
+@media only screen and (max-width: 1023px) {
 
 p {
   font-size: 15px;
@@ -74,19 +75,19 @@ p {
   color: #1cc70e !important;
 }
 
+body {
+  max-width: 1440px;
+  width: 100%;
+}
+
 .App {
+  width: 100%;
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
 
 .App-link {
@@ -96,13 +97,17 @@ p {
 /* ------------NAV SECTION--------------  */
 
 
-nav {
+.nav {
 width: 100%;
 height: 134px;
 align-items: center;
 padding: 0;
 display:flex;
 justify-content: space-evenly;
+}
+
+.nav h1 {
+  display: none;
 }
 
 #logoDiv {
@@ -695,3 +700,4 @@ border-radius: 50px;
      width: 400px;
   }
 
+}

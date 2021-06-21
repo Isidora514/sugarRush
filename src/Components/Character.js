@@ -17,7 +17,7 @@ import coco from '../images/home/Coco-Cow-animation.png'
 import tBone from '../images/home/t-bone-dog.png'
 import henwee from '../images/home/Henwee-Horse.png'
 import wackyDucky from '../images/home/Wacky-ducky.png'
-import broosterRooster from '../images/home/Brooster-Rooster-2.png'
+import broosterRooster from '../images/home/Brooster-Rooster.png'
 
 export default function Characters(props) {
 
