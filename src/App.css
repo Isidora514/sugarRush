@@ -297,6 +297,10 @@ button h2 {
   font-size: 17px;
 }
 
+#cocoAbout {
+  height: auto;
+}
+
 /* ------------VIDEO SECTION--------------  */
 
 #imgDiv {

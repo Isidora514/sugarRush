@@ -96,7 +96,7 @@ li {
   }
 
   .App {
-    max-width: 1440px;
+    max-width: 1920px;
     margin: 0 auto
   }
   
@@ -1156,8 +1156,8 @@ font-size: 70px;
 
 .contactFollowLinks {
 margin: 40px;
-height: 130px;
-width: 130px;
+height: 125px;
+width: 125px;
 }
 
 .row2Contact {
