@@ -855,7 +855,7 @@ padding-top: 50px;
 
 #mediaBanner {
   height: 421px;
-  width: 100%;
+  
 }
 
 #mediaBanner img {
@@ -865,14 +865,15 @@ padding-top: 50px;
 .pressRoomSection {
   display: flex;
   width: 100%;
+  max-width: 1440px;
   justify-content: center;
   align-items: center;
   position: absolute;
-  margin-top: -95px;
+  margin-top: -12%;
   background-color: #56d0fa;
   color: #e91572;
   border-radius: 15px;
-  height: 35vh;
+  height: 300px;
   z-index: inherit;
 }
 
