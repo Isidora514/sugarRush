@@ -37,8 +37,8 @@ export default function Contact(props) {
         <div className="row1Contact">
           <img className="houseContact" src={barn} alt="house"></img>
           <div className="followUsContact">
-            <h1 className="magenta mb-4">FOLLOW US ON</h1>
-            <h1 className="magenta mb-4">YOUTUBE AND TICKTOK</h1>
+            <h1 className="magenta farmer">FOLLOW US ON</h1>
+            <h1 className="magenta farmer">YOUTUBE AND TICKTOK</h1>
             <div className="contactLinkWrap">
               <a
                 href="https://www.youtube.com/channel/UCkalsK7iUBi29AfUjSI_P4w"

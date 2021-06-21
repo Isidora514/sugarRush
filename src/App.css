@@ -1,5 +1,9 @@
 /* -----font------ */
 
+html {
+  width: 100%
+}
+
 /* !!!!!!!!! Need to use this font for all H-tags !!!!!!!!! */
 @media only screen and (max-width: 1023px) {
 
@@ -699,5 +703,194 @@ border-radius: 50px;
      height: 50%;
      width: 400px;
   }
+
+  /* ------------------CONTACT section---------------  */
+
+#banner {
+  position: relative;
+  width: 100%;
+  z-index: -10;
+}
+
+#banner img {
+  position: relative;
+  width: 100%;
+  z-index: -10;
+}
+
+.formDiv {
+  padding-top: 55px;
+  border-radius: 25px;
+  margin-top: -20px;
+  z-index: 10;
+  padding-left: 2vw;
+}
+
+.formDiv h1 {
+  font-size: 40px;
+  color: white;
+  text-align: left;
+}
+
+#emailForm {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2%;
+}
+
+.nameAndEmail {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.nameAndEmail #Name {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  height: 53px;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+.nameAndEmail #email {
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  height: 53px;
+  border-radius: 10px;
+  margin-bottom: 2%;
+}
+
+#message {
+  height: 347px;
+  border-radius: 10px;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+  margin-bottom: 2%;
+}
+
+#emailForm button {
+  border-radius: 25px;
+  margin-left: 40%;
+  margin-right: 40%;
+  width: 20%;
+}
+
+#emailForm button h3 {
+  font-size: 20px;
+}
+
+.contactImgs {
+  padding-top: 5vh;
+  display: flex;
+  flex-direction: column-reverse;
+} 
+
+.imgDiv1 {
+  display: flex;
+  height: 120px;
+  margin-left: 0;
+  width: 100%;
+}
+
+.imgDiv1 img {
+  height: 100%;
+}
+
+.imgDiv2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: -10px;
+  width: 100%;
+}
+
+.imgDiv2 img {
+  height: 100px;
+  width: 100px;
+}
+
+.grid {
+  width: 100%;
+}
+
+.row1Contact {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.houseContact {
+  height: 414px;
+  width: 100%;
+}
+
+.houseContact img {
+  height: 100%;
+  width: 100% ;
+}
+
+
+.followUsContact {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.followUsContact h1 {
+  margin: 0;
+}
+
+.contactLinkWrap {
+  display: flex;
+}
+
+.contactFollowLinks {
+  margin: 40px;
+  height: 148px;
+  width: 172px;
+}
+
+.row2Contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contactButtonDiv {
+  text-decoration: none;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.contactButtonDiv a {
+  text-decoration: none;
+}
+
+.contactButtonDiv button {
+  border-radius: 15px;
+  width: 100%;
+  color: white;
+ }
+
+.contactButtonDiv button h2 {
+text-decoration: none;
+ color: white;
+ font-size: 35px;
+}
+
+.bottomGrid {
+  position: relative;
+}
+
+#wackyContact {
+  display: flex;
+  height: 200px;
+  margin-left: -50px;
+}
+
 
 }
