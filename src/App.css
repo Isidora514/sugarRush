@@ -6,6 +6,14 @@ p {
   font-size: 15px;
 }
 
+@font-face {
+  font-family: 'Hello Farmer';
+  src: local('Hello Farmer'), url(./fonts/Hello\ Farmer.ttf)
+}
+
+.farmer {
+  font-family: 'Hello Farmer';
+}
 
 /* -----colors------ */
 
@@ -23,7 +31,6 @@ p {
 
 .magenta {
   color: #e91572 !important;
-  font-family: "Roboto" !important;
 }
 
 .teal-bg {
@@ -32,7 +39,6 @@ p {
 
 .teal {
   color: #3bf3d7 !important;
-  font-family: "Roboto" !important;
 }
 
 .blue-bg {
@@ -41,7 +47,6 @@ p {
 
 .blue {
   color: #56d0fa !important;
-  font-family: "Roboto" !important;
 }
 
 .lime-bg {
@@ -50,7 +55,7 @@ p {
 
 .lime {
   color: #e4f20b !important;
-  font-family: "Roboto" !important;
+
 }
 
 .purple-bg {
@@ -59,7 +64,6 @@ p {
 
 .purple {
   color: #6b1dbe !important;
-  font-family: "Roboto" !important;
 }
 
 .green-bg {
@@ -68,14 +72,10 @@ p {
 
 .green {
   color: #1cc70e !important;
-  font-family: "Roboto" !important;
 }
 
 .App {
   text-align: center;
-}
-.font-link {
-  font-family: "Roboto" !important;
 }
 
 .App-logo {
@@ -140,7 +140,7 @@ li {
 .welcomeDiv {
   color: white;
   border-radius: 40px;
-  height: 600px;
+  height: 500px;
   margin-top: -25px;
   z-index: 10;
 }
@@ -162,7 +162,7 @@ li {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
+  height: 250px;
   width: 94%;
 }
 
@@ -185,7 +185,7 @@ li {
 /* ------------Character SECTION--------------  */
 
 .characterSection {
-  padding-top: 160px;
+  padding-top: 90px;
 }
 
 .imgAndName {
@@ -341,7 +341,7 @@ button h2 {
 /* ------------follow SECTION--------------  */
 #followSection {
   position: relative;
-  padding-top: 80px;
+  padding-top: 120px;
   padding-bottom: 120px;
 }
 
@@ -428,7 +428,9 @@ border-radius: 50px;
   /* ------------footer SECTION--------------  */
 
   .footBanner {
-    width: 100%;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
     height: 97px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -438,3 +440,258 @@ border-radius: 50px;
     height: 100%;
     width: 100%;
   }
+
+   /* ------------ABOUT SECTION--------------  */
+
+  #aboutPage {
+    display: flex;
+    flex-direction: column;
+  }
+
+   #aboutBanner {
+     height: 160px;
+     width: 100%;
+
+   }
+
+   #aboutBanner img {
+     position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+  }
+
+  .aLittleMore {
+    color: white;
+    border-radius: 40px;
+    height: 350px;
+    margin-top: -35px;
+    z-index: 10;
+    margin-bottom: 50px;
+  }
+  
+  .aLittleMore h1 {
+    font-size: 30px;
+  }
+  
+  .aLittleMore p {
+    padding: 10px;
+    font-size: 15px;
+  }
+
+  .followingCast {
+  
+  }
+
+  .aboutImgWrap {
+    height: 250px;
+  }
+
+  .aboutImgWrap img {
+    height: 100%;
+    padding-bottom: 15px;
+  }
+
+  #landscape {
+    height: 150px;
+    width: 100%;
+  }
+
+  #landscape img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .aboutDesc {
+    color: white;
+    border-radius: 40px;
+    height: 309px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .aboutDesc h1 {
+    text-align: right;
+    padding-right: 50px;
+    padding-top: 30px;
+  }
+
+  .aboutDesc p {
+    padding-top: 30px;
+    text-align: right;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+  }
+
+  .chickAndBench {
+    position: relative;
+  }
+
+  
+  #lilChickOnBench {
+    position: absolute;
+    top: -290px;
+    right: 55px;
+    height: 60px;
+    width: 56px;
+  }
+  
+  #lilChickOnBench img {
+    height: 100%;
+    width: 100%;
+  }
+
+  #lilBench {
+    position: absolute;
+    right: 0;
+    top: -230px;
+    height: 92px;
+    width: 167px;
+  }
+
+  #lilBench img {
+    height: 100%;
+    width: 100%;
+  }
+
+  #jumpingTBone {
+    margin-top: 65px;
+  }
+
+.twoChickOnBench {
+  position: relative;
+}
+
+#poussinClo {
+  position: absolute;
+  top: -185px;
+  height: 39px;
+  width: 37px;
+  z-index: 10;
+}
+
+#poussinClo2 {
+  position: absolute;
+  top: -185px;
+  left: 50px;
+  height: 39px;
+  width: 37px;
+  z-index: 10;
+}
+
+#cloture {
+  position: absolute;
+  top: -150px;
+  height: 97px;
+  width: 160px;
+}
+
+#poussinClo img {
+  height: 100%;
+  width: 100%;
+}
+
+#poussinClo2 img {
+  height: 100%;
+  width: 100%;
+}
+
+#cloture img {
+  height: 100%;
+  width: 100%;
+}
+
+.madeByAbout {
+  margin-top: -40px;
+  height: 200px;
+  border-radius: 40px;
+  margin-bottom: 80px;
+}
+
+.madeByAbout h1 {
+  color: white
+}
+
+.madeByAbout p {
+  color: white
+}
+
+
+   /* ------------Media SECTION--------------  */
+  
+   .pressRoomSection {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    background-color: #56d0fa;
+    color: #e91572;
+    border-radius: 40px;
+    height: 250px;
+    z-index: inherit;
+  }
+
+  #mediaBanner {
+    height: 225px;
+    width: 100%;
+  }
+
+  #mediaBanner img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .featuredSection {
+    padding-top: 50px;
+  }
+
+  .featuredSection h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+   .featuredImgs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+   }
+
+   .featuredImgs img {
+    width: 50%;
+    padding: 15px;
+   }
+
+  .articleSection {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .articleSection h2 {
+    font-size: 40px;
+    margin-bottom: 80px;
+  }
+
+  .articleSection h3 {
+    padding-top: 5px;
+   font-size: 30px;
+  }
+
+  .articleSection p {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5px;
+   font-size: 18px;
+  }
+
+  .mediaArticles img {
+    height: 200px;
+
+  }
+
+  #dogDancing img {
+     height: 50%;
+     width: 400px;
+  }
+

@@ -1,0 +1,971 @@
+@media only screen and (min-width: 1024px) {
+  html {
+  
+  }
+  
+  .App {
+    max-width: 1400px;
+    margin: 0 auto
+  }
+  
+  @font-face {
+    font-family: 'Hello Farmer';
+    src: local('Hello Farmer'), url(./fonts/Hello\ Farmer.ttf)
+  }
+  
+  .farmer {
+    font-family: 'Hello Farmer';
+  }
+  
+  .font80 {
+    font-size: 80px !important;
+  }
+  
+  .returnHome {
+    margin-top: 38px;
+    margin-bottom: 76.6px;
+  }
+  
+  .returnHome button {
+    border-radius: 20px;
+  }
+  
+  
+  
+  p {
+    font-size: 35px;
+    margin-bottom: 0%;
+  }
+  
+  .nav li {
+    list-style-type: none;
+  }
+  
+  /* HOVER NOT WORKING */
+  .nav li :hover {
+    color:#e91572 ;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 1.8em;
+  }
+  
+  /* ---------NAV SECTION----------  */
+  
+  .magenta-bg {
+    background-color: #e91572;
+  }
+  
+  .magenta {
+    color: #e91572 !important;
+  }
+  
+  .teal-bg {
+    background-color: #3bf3d7;
+  }
+  
+  .teal {
+    color: #3bf3d7 !important;
+  }
+  
+  .blue-bg {
+    background-color: #56d0fa;
+  }
+  
+  .blue {
+    color: #56d0fa !important;
+  }
+  
+  .yellow-bg {
+    background-color: #f9da15;
+  }
+  
+  .yellow {
+    color: #f9da15 !important;
+  }
+  
+  .purple-bg {
+    background-color: #6b1dbe;
+  }
+  
+  .purple {
+    color: #6b1dbe !important;
+  }
+  
+  .green-bg {
+    background-color: #1cc70e;
+  }
+  
+  .green {
+    color: #1cc70e !important;
+  }
+  
+  
+   /* ---------NAV SECTION----------  */
+  
+   .nav {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: #56d0fa;
+    height: 137.42px;
+    width: 100%;
+  }
+  
+  .navIcons {
+    margin-left: 224px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  
+  .navIcons h1 {
+    color: white;
+  }
+  
+  .nav a :hover {
+    color: red;
+    font-size: 2em;
+  }
+  
+  #logoDiv {
+    position: absolute;
+    height: 122.56px;
+    width: 237px;
+    left: 50px;
+    top: 15px
+  }
+  
+  #navLogo {
+    width:100%;
+    height: 122.56px;
+    left: 0px;
+  }
+  
+  /*---------- Header section ----------*/
+  
+  #headerBanner {
+    position: relative;
+    display: block;
+    height: 445px;
+    width: 100%;
+    z-index: -10;
+  }
+  
+  .welcomeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    border-radius: 25px;
+    width: 100%;
+    background-color: #56d0fa;
+    z-index: 10;
+  }
+  
+  .welcomeDiv h1 {
+    margin-top: 25px;
+    color: white;
+    font-size: 60px;
+    
+  }
+  
+  .welcomeText {
+    color: white;
+    /* font should be roboto */
+    font-size: 32px;
+    letter-spacing: 0;
+    min-height: 175.72px;
+    width: 100%
+  }
+  
+  #videodiv {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 250px;
+  }
+  
+  #videodiv > .chicken {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -15px;
+    left: 100px;
+  }
+  
+  #videoWindow {
+    position: absolute;
+    height: 420px;
+    width: 970px;
+    border-radius: 25px;
+    border: green 4px solid;
+    z-index: 10;
+    top: -21px;
+  }
+  
+  
+  
+   /* ---------Character SECTION----------  */
+    .characterSection {
+      position: relative;
+      margin-top: 76px;
+    }
+  
+    .funFacts {
+      font-size: 50px;
+      margin-right: 56px;
+      margin-bottom: 0;
+      text-align: right;
+    }
+  
+    .characterSection li {
+      color: white;
+      font-size: 40px;
+      direction: rtl;
+      text-align: right;
+      margin-right: 56.04px;
+    }
+  
+    .characterSection h1 {
+      font-size: 80px;
+      margin-bottom: 0;
+    }
+  
+    .charDiv {
+      display: flex;
+      height: 613px;
+      width: 100%;
+    }
+  
+    #chickitaChar {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  
+    .imgAndName {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      position: relative;
+      width: 50%;
+      margin-bottom: -2vh;
+    }
+  
+    .nameLeft {
+      padding-right: 4.1vw;
+      text-align: right;
+      color: white;
+      left: 0;
+      bottom: 0;
+    }
+  
+    .left {
+      text-align: right;
+      color: white;
+      left: 0;
+      bottom: 0;
+    }
+  
+    .center {
+      text-align: center;
+    }
+  
+    .reverse {
+    }
+  
+    .right {
+      text-align: left;
+      color: white;
+      left: 0;
+      bottom: 0;
+      padding-left: 4.1vw;
+    }
+  
+    .descBox {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      border-radius: 25px;
+      width: 50%;
+      height: 100%;
+    }
+  
+    .descBox h2 {
+      color: white;
+    }
+  
+    .descBox button {
+      text-align: center;
+      border-radius: 15px;
+      height: 8vh;
+      width: 22.60vw;
+    }
+  
+  /* ---------Lyrics SECTION----------  */
+  
+  .lyricsSection {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+  .lyricsSection h1 {
+    font-size: 40px;
+  }
+  
+  .lyricsSection p {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 32px;
+  }
+  
+   /* ---------VIDEO SECTION----------  */
+  
+   .topDiv {
+    position: relative;
+    margin-top: 15vh;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10vh;
+   }
+  
+   #imgDiv {
+    position: absolute;
+   }
+  
+  
+   .topDiv h1 {
+     display: flex;
+     width: 100%;
+     justify-content: center;
+     font-size: 80px;
+     font-weight: 800;
+     align-items: center;
+  }
+  
+  .moreVidSection {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .vid {
+    border-radius: 15px;
+    margin: 1vh;
+  }
+  
+  
+  /* ------------------Follow section---------------   */
+  #followSection h1 {
+    margin-top: 50px;
+    font-weight: 800;
+    font-size: 40px;
+  }
+  
+  .followLinks {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 25vh;
+  }
+  
+  .tiktokLogo {
+    margin-top: 50px;
+    width: 199px;
+    height: 199px;
+  }
+  
+  .youtubeLogo {
+    margin-top: 50px;
+    width: 199px;
+    height: 199px;
+  }
+  
+  #potatoBag {
+    position: absolute;
+    left: -1vw;
+    bottom: 1vh;
+  }
+  
+  #potatoBag2 {
+    position: absolute;
+    right: 0;
+    bottom: 1vh;
+  }
+  
+  /* ------------------Story section---------------  */
+  
+  
+  .footerSection h1 {
+    font-size: 80px;
+  }
+  
+  .footCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .storySection h1 {
+    font-size: 80px important!;
+    text-align: left;
+    margin-top: -10px;
+  }
+  
+  .storySection p {
+    font-size: 32px;
+  padding: 1vh;
+  }
+  
+  .whySugarRush {
+    color: white;
+    display: flex;
+    width: 100%;
+  }
+  
+  .whySugarRush div {
+    border-radius: 15px;
+    width: 100%;
+    padding-bottom: 5vh;
+    margin-bottom: 15vh;
+  }
+  
+  /* .whySugarRush h1 {
+    font-size: 60px;
+    text-align: left;
+    margin-top: -10px;
+  } */
+  
+  /* .whySugarRush p {
+    font-size: 32px;
+    padding: 1vh;
+  } */
+  
+  .midImageDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+    position: relative;
+    height: 250px;
+    width: 70%;
+  }
+  
+  .midImage {
+    width: 556px;
+    height: 606px;
+    position: absolute;
+    left: 60%;
+    top: -45vh;
+  }
+  
+  .historyWithSon div {
+    color: white;
+    width: 100%;
+    border-radius: 15px;
+    padding-top: 13.81vh;
+    text-align: center;
+    padding-bottom: 5.81vh;
+    margin-bottom: 5.81vh;
+  }
+  
+  .historyWithSon td {
+    border-radius: 30px;
+    width: 100%;
+  }
+  
+  .historyWithSon h1 {
+    text-align: right;
+    padding-right: 20px;
+  }
+  
+  
+  .storySection h2 {
+    text-align: left;
+    margin: 5%;
+  }
+  
+  /* ------------------About section---------------  */
+  
+  #aboutPage h1 {
+    font-size: 60px;
+    color: white;
+  }
+  
+  #aboutPage h2 {
+    font-size: 35px;
+    color: white;
+  }
+  
+  #aboutPage h3 {
+    font-size: 70px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 1vw
+  }
+  
+  #AboutBanner {
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: -10;
+  }
+  .aLittleMore {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: -35px;
+    border-radius: 25px;
+    width: 100%;
+    color: white;
+    z-index: 10;
+  }
+  
+  .aLittleMore h1 {
+    font-size: 60px;
+    margin: 0;
+    text-align: start;
+    margin-left: 1vw;
+  }
+  
+  .aLittleMore p {
+    font-size: 32px;
+    margin: 0;
+    text-align: start;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+  }
+  
+  .chikSection {
+    position: relative;
+    display: flex;
+    padding-top: 40vh;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding-bottom: 10vh;
+  }
+  
+  .chikSection img {
+    position: absolute;
+    right: 350px;
+    top: 0;
+  }
+  
+  #chikitaAbout {
+    border-radius: 15px;
+    color: white;
+  }
+  
+  #chikitaAbout h1 {
+    margin-top: -15px;
+    font-size: 3em;
+    text-align: left;
+  }
+  
+  #chikitaAbout h2 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+  
+  .cocoSection {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+  
+  #cocoAbout {
+    width: 45%;
+    border-radius: 15px;
+  }
+  
+  #cocoAbout h1 {
+  margin-top: -15px
+  }
+  
+  #cocoAbout h2 {
+    margin: 15px;
+    }
+  
+  #lilChickOnBench {
+    position: absolute;
+    right: 5vw;
+    top: -15vh;
+    z-index: 10;
+  }
+  
+  #lilChickBench {
+    position: absolute;
+    right: 0;
+    z-index: -10;
+  }
+  
+  .tBdiv
+  {
+    position: relative;
+  }
+  
+  .tBoneSection {
+    position: relative;
+    padding-top: 15vh;
+  }
+  
+  #jumpingTBone {
+    position: absolute;
+    left: 18vw;
+    top: -15.19vh;
+  }
+  
+  #tBoneAbout {
+    border-radius: 15px;
+    padding: 25px;
+  }
+  
+  #tBoneAbout h1 {
+    text-align: right;
+  }
+  
+  
+  .henweeSection {
+    display: flex;
+    padding-top: 8vh;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .henweeSection img {
+    padding-left: 28.80vw;
+  }
+  
+  #henweeAbout {
+    width: 45%;
+    border-radius: 15px;
+  }
+  
+  #henweeAbout h1 {
+  margin-top: -15px
+  }
+  
+  #henweeAbout h2 {
+    margin: 15px;
+    }
+  
+  #poussinClo {
+    position: absolute;
+    left: 18vw;
+    top: -13.83vh;
+  }
+  
+  #poussinClo2 {
+    position: absolute;
+    left: 10.79vw;
+    top: -13.83vh;
+  }
+  
+  #cloture {
+    position: absolute;
+    left: 0;
+    z-index: -10;
+  }
+  
+  .duckSection {
+    position: relative;
+    display: flex;
+    margin-top: -15vh;
+    padding-top: 45vh;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    padding-bottom: 10vh;
+  }
+  
+  .duckSection img {
+    position: absolute;
+    right: 350px;
+    top: 0;
+  }
+  
+  #duckAbout {
+    border-radius: 15px;
+    color: white;
+  }
+  
+  #duckAbout h1 {
+    margin-top: -15px;
+    font-size: 3em;
+    text-align: left;
+  }
+  
+  #duckAbout h2 {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+  
+  .broosterSection {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    padding-bottom: 10vh;
+  }
+  
+  #broosterAbout {
+    width: 45%;
+    border-radius: 15px;
+  }
+  
+  #broosterAbout h1 {
+  margin-top: -15px
+  }
+  
+  #broosterAbout h2 {
+    margin: 15px;
+    }
+  
+  #landscape {
+    position: relative;
+    display: block;
+    width: 100%;
+    z-index: -10;
+  }
+  
+  .moreFriendsAndButton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .madeByAbout {
+    margin-top: -10vh;
+    border-radius: 25px;
+    z-index: 10;
+  }
+  
+  .madeByAbout h1 {
+  padding-top: 50px;
+  }
+  
+  .madeByAbout p {
+    font-size: 32px;
+    color: white;
+    padding-bottom: 50px;
+    }
+  
+  /* ------------------Media section---------------  */
+  
+  #mediaBanner {
+    width: 100%;
+  }
+  
+  .pressRoomSection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: -20px;
+    background-color: #56d0fa;
+    color: #e91572;
+    border-radius: 15px;
+    height: 35vh;
+    z-index: inherit;
+  }
+  
+  .pressRoomSection h1 {
+    font-size: 90px;
+  }
+  
+  .featuredSection {
+    padding-top: 38vh;
+  }
+  
+  .featuredSection h1 {
+    font-size: 70px;
+  }
+  
+  .featuredImgs {
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 30px;
+  }
+  
+  .articleSection h3 {
+    font-size: 30px;
+    text-align: left;
+    padding-top: 5px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2vw;
+  }
+  
+  .articleSection p {
+    font-size: 25px;
+    text-align: left;
+    margin-left: 2vw;
+  }
+  
+  .mediaArticles {
+    display: flex;
+    margin: 5vh;
+  }
+  
+  .mediaArticles img {
+  height: 53.17vh;
+  width: 44.13vw;
+  }
+  
+  #dogDancing {
+    border-bottom: 2px #56d0fa solid;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 4vh;
+    margin-bottom: 8vh;
+  }
+  
+  /* ------------------CONTACT section---------------  */
+  
+  #banner {
+    position: relative;
+    width: 100%;
+    z-index: -10;
+  }
+  
+  .formDiv {
+    padding-top: 55px;
+    border-radius: 25px;
+    margin-top: -45px;
+    z-index: 10;
+    padding-left: 2vw;
+  }
+  
+  .formDiv h1 {
+    font-size: 60px;
+    color: white;
+    text-align: left;
+  }
+  
+  #emailForm {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2%;
+  }
+  
+  .nameAndEmail {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nameAndEmail #Name {
+    width: 25%;
+    height: 53px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+  }
+  
+  .nameAndEmail #email {
+    width: 25%;
+    height: 53px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+  }
+  
+  #message {
+    height: 347px;
+    width: 66%;
+    margin-bottom: 2%;
+  }
+  
+  #emailForm button {
+    border-radius: 25px;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+  }
+  
+  #emailForm button h3 {
+    font-size: 20px;
+  }
+  
+  .contactImgs {
+    padding-top: 5vh;
+    display: flex;
+  } 
+  
+  .imgDiv1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px;
+    width: 50%;
+  }
+  
+  .imgDiv2 {
+    margin-top: -10px;
+    width: 50%;
+  }
+  
+  .row1Contact {
+    display: flex;
+  }
+  
+  .houseContact {
+    width: 50%;
+  }
+  
+  
+  .followUsContact {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+  
+  .followUsContact h1 {
+    margin: 0;
+  }
+  
+  .contactFollowLinks {
+    margin: 40px;
+    height: 148px;
+    width: 172px;
+  }
+  
+  .row2Contact {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .contactButtonDiv {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contactButtonDiv button {
+    width: 150%;
+    /* height: 80px; */
+    color: white;
+    margin-left: -150%;
+   }
+  
+  .contactButtonDiv button h2 {
+   color: white;
+   font-size: 35px;
+  }
+  
+  #wackyContact {
+    display: flex;
+  }
+
+}

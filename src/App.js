@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import './desktop.css';
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,8 +23,21 @@ function App() {
     <Router>
       <div className="App">
         <Nav />
-        <Header />
-        <Characters />
+          <Switch>
+            <Route exact path="/">
+            <Header />
+            <Characters />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/media">
+            <Media />
+          </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+        </Switch>
       </div>
     </Router>
   );

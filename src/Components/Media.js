@@ -32,16 +32,16 @@ export default function About (props) {
 
     return (
       <section id="mediaPage">
-      <div>
-         <img className="aniPics" id="mediaBanner" src={banner} alt="farm" />
+      <div id="mediaBanner">
+         <img className="aniPics" src={banner} alt="farm" />
       </div>
       
-      <div className="pressRoomSection">
+      <div className="pressRoomSection blue-bg">
         <h1>COCK A DOODLE TIME -PRESS ROOM</h1>
       </div>
 
       <div className="featuredSection">
-        <h1 className="magenta">AS FEATURED ON:</h1>
+        <h1 className="magenta farmer">AS FEATURED ON:</h1>
         <div className="featuredImgs">
           <img src={globalNews} />
           <img src={cjad} />
@@ -107,8 +107,8 @@ export default function About (props) {
         </div>
 
       </section>
-      <img src={dogDancing} />
       <div id="dogDancing">
+      <img src={dogDancing} />
       </div>
       <Footer />
    </section>

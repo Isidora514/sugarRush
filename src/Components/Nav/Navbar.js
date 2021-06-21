@@ -13,12 +13,12 @@ export default function Navbar(props) {
         <div id="logoDiv">
           <img id="navLogo" src={logo} alt="logo" />
         </div>
-        {/* <ul>
+        <ul>
           <li><a href="/">HOME</a></li>
           <li><a href="/about">ABOUT</a></li>
           <li><a href="/media">MEDIA</a></li>
           <li><a href="/contact">CONTACT</a></li>
-        </ul> */}
+        </ul>
     </nav>
   ) 
 }

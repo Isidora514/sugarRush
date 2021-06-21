@@ -31,8 +31,8 @@ export default function About (props) {
     return (
   <section id="aboutPage">
       
-      <div>
-        <img id="AboutBanner" src={banner} alt="farm" />
+      <div id="aboutBanner">
+        <img src={banner} alt="farm" />
       </div>
 
       <div className="aLittleMore blue-bg">
@@ -42,28 +42,28 @@ export default function About (props) {
       </div>
 
       <h3 className="magenta farmer">STARRING THE</h3>
-      <h3 className="magenta farmer">FOLLOWING CAST:</h3>
+      <h3 className="followingCast magenta farmer">FOLLOWING CAST:</h3>
       <div id="chickRoute" className="chikSection">
-        <div id="chickRoute">
+        <div className="aboutImgWrap" id="chickRoute">
           <img src={chikita} />
         </div>
 
-        <div id="chikitaAbout" className="magenta-bg">
+        <div id="chikitaAbout" className="magenta-bg aboutDesc">
           <h1>CHIKITA THE CHICKEN</h1>
-          <h2>{data.chikita.bio}</h2>
+          <p>{data.chikita.bio}</p>
         </div>
       </div>
 
       {/* coco */}
 
       <div id="cowRoute" className="cocoSection">
-        <div>
+        <div className="aboutImgWrap">
           <img src={coco} />
         </div>
 
-        <div id="cocoAbout" className="teal-bg">
+        <div id="cocoAbout" className="teal-bg aboutDesc">
           <h1>COCO THE COW</h1>
-          <h2>{data.coco.bio}</h2>
+          <p>{data.coco.bio}</p>
         </div>
       </div>
 
@@ -73,43 +73,57 @@ export default function About (props) {
     <h1 className='magenta'> Follow us on Tiktok! </h1>
     <div className="followLinks">
     <a href="https://www.tiktok.com/@sugarrushjams?lang=en" target="_blank"><img className="tiktokLogo" src={tikTok} /></a>
-    <img src={poussin} id="lilChickOnBench" />
-    <img src={bench} id="lilChickBench" />
+    <div className="chickAndBench">
+    <div id="lilChickOnBench">
+    <img src={poussin}  />
+    </div>
+    <div id="lilBench">
+    <img src={bench} />
+    </div>
+    </div>
     </div>
     </section>
 
    {/* TBONE */}
 
    <div id="dogRoute" className="tBoneSection">
-        <div>
+        <div className="aboutImgWrap">
           <img id="jumpingTBone" src={tBone} />
         </div>
 
-        <div id="tBoneAbout" className="blue-bg">
+        <div id="tBoneAbout" className="blue-bg aboutDesc">
           <h1>T-BONE THE DOG</h1>
-          <h2>{data.tBone.bio}</h2>
+          <p>{data.tBone.bio}</p>
         </div>
       </div>
 
       {/* HENWEE */}
 
       <div id="horseRoute" className="henweeSection">
-        <div>
+        <div className="aboutImgWrap">
           <img src={henwee} />
         </div>
 
-        <div id="henweeAbout" className="yellow-bg">
+        <div id="henweeAbout" className="yellow-bg aboutDesc">
           <h1>HENWEE THE HORSE</h1>
-          <h2>{data.henwee.bio}</h2>
+          <p>{data.henwee.bio}</p>
         </div>
       </div>
 
       <section id="followSection">
         <h1 className='magenta'> Follow us on Youtube!</h1>
         <div className="followLinks">
-          <img id="poussinClo" src={poussin} />
-          <img id="poussinClo2" src={poussin} />
-          <img id="cloture" src={cloture}/>
+          <div className="twoChickOnBench">
+            <div id="poussinClo">
+              <img src={poussin} />
+            </div>
+            <div id="poussinClo2">
+              <img src={poussin} />
+            </div>
+            <div id="cloture">
+              <img src={cloture}/>
+            </div>
+          </div>
         <a href="https://www.youtube.com/channel/UCkalsK7iUBi29AfUjSI_P4w" target="_blank"><img  className="youtubeLogo" src={youTube} /></a>
         </div>
       </section>
@@ -117,36 +131,39 @@ export default function About (props) {
       {/* WHACKY */}
 
       <div id="duckRoute" className="duckSection">
-        <div>
+        <div className="aboutImgWrap">
           <img src={wacky} />
         </div>
 
-        <div id="duckAbout" className="purple-bg">
+        <div id="duckAbout" className="purple-bg aboutDesc">
           <h1>WACKY DACKY THE DUCK</h1>
-          <h2>{data.whacky.bio}</h2>
+          <p>{data.whacky.bio}</p>
         </div>
       </div>
 
       {/* Brooster */}
 
       <div id="broosterRoute" className="broosterSection">
-        <div>
+        <div className="aboutImgWrap">
           <img src={brooster} />
         </div>
 
-        <div id="broosterAbout" className="green-bg">
+        <div id="broosterAbout" className="green-bg aboutDesc">
           <h1>BROOSTER THE ROOSTER</h1>
-          <h2>{data.brooster.bio}</h2>
+          <p>{data.brooster.bio}</p>
         </div>
       </div>
 
-      <img id="landscape" src={landscape}/>
+      <div id="landscape">
+      <img src={landscape}/>
+      </div>
       <div className="madeByAbout blue-bg">
-        <h1>"MADE BY KIDS FOR KIDS!"</h1>
+        <h1 className="farmer">"MADE BY KIDS FOR KIDS!"</h1>
         <p>More information coming soon!</p>
       </div>
       <div className="moreFriendsAndButton">
       <h1 className="magenta farmer">MORE FRIENDS COMING SOON!</h1>
+      <h1 className="magenta farmer">???</h1>
       <HomeButton />
       </div>
       <Footer />
