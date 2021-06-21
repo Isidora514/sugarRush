@@ -512,6 +512,36 @@ border-radius: 50px;
     width: 100%;
   }
 
+  .moreFriendsAndButton button {
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+
+  .moreFriendsAndButton h2 {
+    font-size: 60px !important;
+  }
+
+  .madeByAbout h2 {
+    color: white;
+    padding: 0;
+    padding-top: 50px;
+  }
+  
+  .madeByAbout p {
+  font-size: 32px;
+  color: white;
+  padding-bottom: 50px;
+  }
+
+  .moreFriendsAndButton button h2 {
+    padding: 3px;
+    font-size: 25px !important;
+  }
+
+  .moreFriendsAndButton a {
+    text-decoration: none;
+  }
+
   .aboutDesc {
     color: white;
     border-radius: 40px;

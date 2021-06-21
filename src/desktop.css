@@ -1,692 +1,740 @@
 p {
-    font-size: 15px;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+li {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: 'Hello Farmer';
+  src: local('Hello Farmer'), url(./fonts/Hello\ Farmer.ttf)
+}
+
+.farmer {
+  font-family: 'Hello Farmer';
+}
+
+/* -----colors------ */
+
+.yellow-bg {
+  background-color: #f9da15;
+}
+
+.yellow {
+  color: #f9da15 !important;
+}
+
+.magenta-bg {
+  background-color: #e91572;
+}
+
+.magenta {
+  color: #e91572 !important;
+}
+
+.teal-bg {
+  background-color: #3bf3d7;
+}
+
+.teal {
+  color: #3bf3d7 !important;
+}
+
+.blue-bg {
+  background-color: #56d0fa;
+}
+
+.blue {
+  color: #56d0fa !important;
+}
+
+.lime-bg {
+  background-color: #e4f20b;
+}
+
+.lime {
+  color: #e4f20b !important;
+
+}
+
+.purple-bg {
+  background-color: #6b1dbe;
+}
+
+.purple {
+  color: #6b1dbe !important;
+}
+
+.green-bg {
+  background-color: #1cc70e;
+}
+
+.green {
+  color: #1cc70e !important;
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+
+  body {
+    margin: 0;
+    text-align: center;
   }
 
-  a {
-    text-decoration: none;
-  }
-
-  ul {
-    list-style: none;
-    text-decoration: none;
-  }
-  li {
-    text-decoration: none;
-  }
-  
-  @font-face {
-    font-family: 'Hello Farmer';
-    src: local('Hello Farmer'), url(./fonts/Hello\ Farmer.ttf)
-  }
-  
-  .farmer {
-    font-family: 'Hello Farmer';
-  }
-  
-  /* -----colors------ */
-  
-  .yellow-bg {
-    background-color: #f9da15;
-  }
-  
-  .yellow {
-    color: #f9da15 !important;
-  }
-  
-  .magenta-bg {
-    background-color: #e91572;
-  }
-  
-  .magenta {
-    color: #e91572 !important;
-  }
-  
-  .teal-bg {
-    background-color: #3bf3d7;
-  }
-  
-  .teal {
-    color: #3bf3d7 !important;
-  }
-  
-  .blue-bg {
-    background-color: #56d0fa;
-  }
-  
-  .blue {
-    color: #56d0fa !important;
-  }
-  
-  .lime-bg {
-    background-color: #e4f20b;
-  }
-  
-  .lime {
-    color: #e4f20b !important;
-  
-  }
-  
-  .purple-bg {
-    background-color: #6b1dbe;
-  }
-  
-  .purple {
-    color: #6b1dbe !important;
-  }
-  
-  .green-bg {
-    background-color: #1cc70e;
-  }
-  
-  .green {
-    color: #1cc70e !important;
-  }
-  
-
-  
-  @media only screen and (min-width: 1024px) {
-
-    body {
-      margin: 0;
-      text-align: center;
-    }
-
-    html {
-      width: 100%;
-    }
-
-    .App {
-      max-width: 1440px;
-      margin: 0 auto
-    }
-    
-    .App-logo {
-      height: 40vmin;
-      pointer-events: none;
-    }
-    
-    .App-link {
-      color: #61dafb;
-    }
-  
-     /* ---------NAV SECTION----------  */
-
-     .nav {
-      position: relative;
-      display: flex;
-      justify-content: center;
-      background-color: #56d0fa;
-      height: 137.42px;
-      width: 100%;
-    } 
-
-    .nav a {
-      text-decoration: none;
-    }
-    
-    .navIcons {
-      margin-left: 20%;
-      display: flex;
-      width: 100%;
-      align-items: center;
-      justify-content: space-evenly;
-      flex-direction: row;
-    }
-    
-    .navIcons h1 {
-      color: white;
-    }
-    
-    .nav a :hover {
-      color: red;
-      font-size: 2em;
-    }
-    
-    #logoDiv {
-      position: absolute;
-      height: 122.56px;
-      width: 237px;
-      left: 5px;
-      top: 15px
-    }
-    
-    #navLogo {
-      width:100%;
-      height: 122.56px;
-      left: 0px;
-    }
-
-    /* ---------HEADER SECTION----------  */
-
-    #headerBanner {
-      position: relative;
-      height: 421px;
-      width: 100%;
-      z-index: -10;
-    }
-    
-    #headerBanner img {
-      height: 100%;
-      width: 100%;
-    }
-
-    .welcomeDiv {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-top: -40px;
-      border-radius: 25px;
-      width: 100%;
-      background-color: #56d0fa;
-      z-index: 10;
-    }
-
-    .welcomeDiv h1 {
-      margin-top: 25px;
-      color: white;
-      font-size: 60px;
-      
-    }
-
-    .welcomeText {
-      color: white;
-      font-size: 32px;
-      letter-spacing: 0;
-      min-height: 175.72px;
-      width: 100%
-    }
-
-    #videoDiv {
-      display: flex;
-      justify-content: center;
-      position: relative;
-      height: 250px;
-    }
-    
-    #videoDiv > .chicken {
-      width: 100px;
-      height: 100px;
-      position: absolute;
-      top: 0px;
-      left: 0px;
-    }
-    
-    #videoWindow {
-      height: 420px;
-      width: 72%;
-      border-radius: 25px;
-      border: green 4px solid;
-      z-index: 10;
-      margin-top: -100px;
-    }
-
-     /* ---------Character SECTION----------  */
-  .characterSection {
-    position: relative;
-    margin-top: 50px;
-  }
-
-  .funFacts {
-    font-size: 50px;
-    margin-right: 56px;
-    margin-bottom: 0;
-    text-align: right;
-  }
-
-  .characterSection li {
-    color: white;
-    font-size: 40px;
-    direction: rtl;
-    text-align: right;
-    margin-right: 56.04px;
-  }
-
-  .characterSection h1 {
-    font-size: 80px;
-    margin-bottom: 0;
-  }
-
-  .charDiv {
-    display: flex;
-    height: 613px;
+  html {
     width: 100%;
   }
 
-  #chickitaChar {
-    position: absolute;
-    top: 0;
-    left: 0;
+  .App {
+    max-width: 1440px;
+    margin: 0 auto
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-link {
+    color: #61dafb;
   }
 
-  .imgAndName {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+   /* ---------NAV SECTION----------  */
+
+   .nav {
     position: relative;
-    width: 50%;
-    margin-bottom: 0;
-  }
+    display: flex;
+    justify-content: center;
+    background-color: #56d0fa;
+    height: 148px;
+    width: 100%;
+  } 
 
-  .nameLeft {
-    padding-right: 50px;
-    text-align: right;
+  .nav a {
+    text-decoration: none;
+  }
+  
+  .navIcons {
+    margin-left: 20%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+  
+  .navIcons h1 {
     color: white;
-    left: 0;
-    bottom: 0;
+  }
+  
+  .nav a :hover {
+    color: red;
+    font-size: 2.8em;
+  }
+  
+  #logoDiv {
+    position: absolute;
+    height: 123px;
+    width: 237px;
+    left: 5px;
+    top: 15px
+  }
+  
+  #navLogo {
+    width:100%;
+    height: 123px;
+    left: 0px;
   }
 
-  .left {
-    text-align: right;
-    color: white;
-    left: 0;
-    bottom: 0;
+  /* ---------HEADER SECTION----------  */
+
+  #headerBanner {
+    position: relative;
+    height: 421px;
+    width: 100%;
+    z-index: -10;
+  }
+  
+  #headerBanner img {
+    height: 100%;
+    width: 100%;
   }
 
-  .center {
-    text-align: center;
-  }
-
-  .right {
-    text-align: left;
-    color: white;
-    left: 0;
-    bottom: 0;
-    padding-left: 50px;
-  }
-
-  .descBox {
+  .welcomeDiv {
+    padding-left: 71px;
+    padding-right: 71px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    border-radius: 25px;
-    width: 50%;
-    height: 100%;
-  }
-
-  .descBox h2 {
-    color: white;
-  }
-
-  .buttonDiv {
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    border-radius: 20px;
+    width: 100%;
+    background-color: #56d0fa;
+    z-index: 10;
+    text-align: left;
   }
 
-  .descBox button {
-    background-color: white;
-    text-align: center;
-    border-radius: 30px;
-    height: 80px;
-    width: 250px;
+  .welcomeDiv h1 {
+    margin-top: 50px;
+    color: white;
+    font-size: 60px;
+    
   }
 
-  .descBox button h2 {
-    font-size: 30px;
-    text-align: center;
+  .welcomeText {
+    margin-top: 30px;
+    color: white;
+    font-size: 32px;
+    letter-spacing: 0;
+    min-height: 176px;
+    width: 100%
   }
 
-  .charImgDivRooster {
-    margin-top: -150px;
-    height: 325px;
-    width: 475px;
+  #videoDiv {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 250px;
+  }
+  
+  #videoDiv > .chicken {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  
+  #videoWindow {
+    height: 620px;
+    width: 72%;
+    border-radius: 25px;
+    border: green 4px solid;
+    z-index: 10;
+    margin-top: -100px;
   }
 
-  #broosterImg {
-    margin-top: -200px
-  }
-
-   /* ---------VIDEO SECTION----------  */
-
- .topDiv {
+   /* ---------Character SECTION----------  */
+.characterSection {
   position: relative;
-  margin-top: 100px;
+  margin-top: 400px;
+}
+
+.funFacts {
+  margin-top: 50px;
+  padding-right: 0px;
+  font-size: 50px;
+  margin-right: 56px;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.characterSection li {
+  color: white;
+  font-size: 40px;
+  direction: rtl;
+  text-align: right;
+  margin-right: 56px;
+}
+
+.characterSection h1 {
+  font-size: 80px;
+  margin-bottom: 0;
+}
+
+.charDiv {
+  display: flex;
+  height: 613px;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+#chickitaChar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.imgAndName {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  width: 50%;
+  margin-bottom: -60px;
+}
+
+.nameLeft {
+  padding-right: 50px;
+  text-align: right;
+  color: white;
+  left: 0;
+  bottom: 0;
+}
+
+.left {
+  text-align: right;
+  color: white;
+  left: 0;
+  bottom: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: left;
+  color: white;
+  left: 0;
+  bottom: 0;
+  padding-left: 50px;
+}
+
+.descBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 20px;
+  width: 50%;
+  height: 110%;
+}
+
+.descBox h2 {
+  color: white;
+}
+
+.buttonDiv {
   display: flex;
   align-items: center;
-  margin-bottom: 80px;
- }
+  justify-content: center;
+}
+
+.descBox button {
+  margin-bottom: 50px;
+  background-color: white;
+  text-align: center;
+  border-radius: 15px;
+  height: 80px;
+  width: 250px;
+}
+
+.descBox button h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.charImgDivRooster {
+  margin-top: -150px;
+  height: 325px;
+  width: 475px;
+}
+
+#broosterImg {
+  padding-left: 150px;
+  margin-top: -200px
+}
+
+ /* ---------VIDEO SECTION----------  */
+
+.topDiv {
+position: relative;
+margin-top: 100px;
+display: flex;
+align-items: center;
+margin-bottom: 80px;
+}
 
 
- .topDiv h1 {
-   display: flex;
-   width: 100%;
-   justify-content: center;
-   font-size: 80px;
-   font-weight: 800;
-   align-items: center;
+.topDiv h1 {
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ font-size: 80px;
+ font-weight: 800;
+ align-items: center;
+ padding-top: 200px;
 }
 
 .moreVidSection {
-  display: flex;
-  /* flex-direction: column; */
-  justify-content: center;
-  align-items: center;
+display: flex;
+/* flex-direction: column; */
+justify-content: center;
+align-items: center;
+padding-bottom: 120px;
 }
 
 .vid {
-  border-radius: 30px;
-  margin: 15px;
+border-radius: 15px;
+margin: 15px;
 }
 
 /* ---------Lyrics SECTION----------  */
 
 .lyricsSection {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
+margin-left: auto;
+margin-right: auto;
+text-align: left;
 }
 
-.lyricsSection h1 {
-  font-size: 40px;
+#lyricsSection h1 {
+  padding-bottom: 50px;
+ font-size: 70px;
 }
 
-.lyricsSection p {
-  margin-top: 0;
-  margin-bottom: 0;
-  font-size: 32px;
+#lyricsSection p {
+margin-top: 0;
+margin-bottom: 0;
+font-size: 25px !important;
 }
 
 /* ------------------Follow section---------------   */
+#followSection  {
+display: flex;
+align-items: center;
+flex-direction: column;
+text-align: center;
+}
+
+
 #followSection h1 {
-  margin-top: 50px;
-  font-weight: 800;
-  font-size: 40px;
+display: flex;
+align-items: center;
+flex-direction: column;
+text-align: center;
+margin-top: 140px;
+margin-bottom: 60px;
+font-weight: 800;
+font-size: 80px;
 }
 
 .followLinks {
-  position: relative;
-  display: flex;
-  width: 100%;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  padding-bottom: 200px;
+position: relative;
+display: flex;
+width: 100%;
+flex-direction: row;
+align-items: center;
+justify-content: space-around;
+padding-bottom: 200px;
 }
 
 .tiktokLogo {
-  margin-top: 50px;
-  width: 199px;
-  height: 199px;
+margin-top: 50px;
+margin-bottom: 60px;
+width: 199px;
+height: 199px;
+margin-left: 60px;
 }
 
 #imgDiv {
-  position: absolute;
+position: absolute;
+padding-top: 130px;
 }
 
 .youtubeLogo {
-  margin-top: 50px;
-  width: 199px;
-  height: 199px;
+margin-top: 50px;
+width: 199px;
+height: 199px;
 }
 
 #potatoBag {
-  position: absolute;
-  left: -15px;
-  bottom: 5px;
+position: absolute;
+left: -15px;
+bottom: -100px;
 }
 
 #potatoBag2 {
-  position: absolute;
-  right: 0;
-  bottom: 5px;
+position: absolute;
+right: 0;
+bottom: -50px;
 }
 
 /* ------------------Story section---------------  */
 
-/* .footerSection h1 {
-  font-size: 80px;
+.footerSection h1 {
+font-size: 80px;
 }
 
 .footBanner {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
-  height: 347px;
-  margin-top: 100px;
-  margin-bottom: 100px;
-} */
+width: 80%;
+margin-left: 10%;
+margin-right: 10%;
+height: 347px;
+margin-top: 100px;
+margin-bottom: 100px;
+}
 
 .footBanner img {
-  height: 100%;
-  width: 100%;
+height: 100%;
+width: 100%;
 
 }
 
 .storySection h1 {
-  font-size: 80px important!;
-  text-align: left;
-  margin-top: -10px;
+padding-top: 100px;
+font-size: 80px important!;
+text-align: left;
+margin-top: -10px;
 }
 
 .storySection p {
-  font-size: 32px;
+font-size: 32px;
 padding: 1px;
 }
 
 .whySugarRush {
-  color: white;
-  display: flex;
-  height: 700px;
-  width: 100%;
-  text-align: left;
+color: white;
+display: flex;
+height: 790px;
+width: 100%;
+text-align: left;
 }
 
 .whySugarRush div {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 30px;
-  width: 100%;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+border-radius: 20px;
+width: 100%;
+margin-top: 100px;
+height: 750px;
 }
 
 .whySugarRush h1 {
-  width: 90%;
-  font-size: 60px;
-  text-align: left;
-  margin-top: -54px;
-  padding-left: 71px;
+width: 90%;
+font-size: 60px;
+text-align: left;
+margin-top: -54px;
+padding-left: 71px;
 }
 
 .whySugarRush p {
-  font-size: 32px;
-  padding-left: 71px;
-  padding-right: 71px;
+font-size: 32px;
+padding-left: 71px;
+padding-right: 71px;
 }
 
 .midImageDiv {
-  display: flex;
-  justify-content: center;
-  margin-top: 250px;
-  position: relative;
-  height: 250px;
-  width: 70%;
+display: flex;
+justify-content: center;
+margin-top: 320px;
+margin-bottom: 40px;
+position: relative;
+height: 250px;
+width: 70%;
 }
 
 .midImage {
-  width: 556px;
-  height: 606px;
-  position: absolute;
-  left: 400px;
-  top: -300px;
+width: 556px;
+height: 606px;
+position: absolute;
+left: 400px;
+top: -300px;
 }
 
 .historyWithSon div {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 30px;
-  width: 100%;
-  height: 720px;
-  margin-top: -100px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+margin-left: auto;
+margin-right: auto;
+border-radius: 20px;
+width: 100%;
+height: 720px;
+margin-top: -80px;
+height: 740px;
 }
 
 .historyWithSon h1 {
-  color: white;
-  width: 90%;
-  font-size: 60px;
-  text-align: right;
-  margin-top: -54px;
-  padding-left: 52px;
+color: white;
+width: 90%;
+font-size: 60px;
+text-align: right;
+margin-top: -54px;
 }
 
 .historyWithSon p {
-  color: white;
-  font-size: 32px;
-  padding-left: 71px;
-  padding-right: 71px;
-  text-align: right;
+color: white;
+font-size: 32px;
+padding-left: 71px;
+padding-right: 71px;
+text-align: right;
 }
 
 .storySection h2 {
-  text-align: right;
-  margin: 5%;
+text-align: right;
+margin: 5%;
 }
 
 /* ------------------About section---------------  */
 #aboutPage h1 {
-  font-size: 60px;
-  color: white;
+font-size: 60px;
+color: white;
+padding-left: 71px;
 }
 
 #aboutPage .followLinks {
-  display: flex;
+display: flex;
+}
+
+.followLinks .youtubeLogo {
+display: flex;
+margin-left: 20PX;
 }
 
 #aboutPage h2 {
-  font-size: 35px;
-  color: white;
+font-size: 35px;
+color: white;
 }
 
 #aboutPage h3 {
-  font-size: 70px;
-  text-align: left;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 3%
+font-size: 70px;
+text-align: left;
+margin-top: 100px;
+margin-bottom: -100px;
+margin-left: 76px;
 }
 
 #aboutBanner {
-  position: relative;
-  display: block;
-  height: 421px;
-  width: 100%;
-  z-index: -10;
+position: relative;
+display: block;
+height: 421px;
+width: 100%;
+z-index: -10;
 }
 
 #aboutBanner img {
-  height: 100%;
-  width: 100%;
+height: 100%;
+width: 100%;
 }
 
 .aLittleMore {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: -35px;
-  border-radius: 25px;
-  width: 100%;
-  color: white;
-  margin-bottom: 120px;
-  z-index: 10;
+display: flex;
+flex-direction: column;
+margin-top: -40px;
+justify-content: center;
+border-radius: 20px;
+width: 100%;
+height: 620px;
+color: white;
+z-index: 10;
 }
 
 .aLittleMore h1 {
-  font-size: 60px;
-  margin: 0;
-  text-align: start;
-  margin-left: 3%;
+font-size: 60px;
+margin: 0;
+text-align: left;
 }
 
 .aLittleMore p {
-  font-size: 32px;
-  margin: 0;
-  text-align: start;
-  margin-left: 3%;
-  margin-right: 3%;
-  padding-top: 2%;
-  padding-bottom: 2%;
+font-size: 32px;
+margin: 0;
+text-align: start;
+margin-left: 71px;
+margin-right: 71px;
+padding-top: 15px;
+padding-bottom: 15px;
 }
 
 .chikSection {
-  position: relative;
-  display: flex;
-  padding-top: 40vh;
-  flex-direction: row-reverse;
-  align-items: flex-end;
-  padding-bottom: 10vh;
+position: relative;
+display: flex;
+padding-top: 700px;
+flex-direction: row-reverse;
+align-items: flex-end;
+padding-bottom: 70px;
 }
 
 .chikSection img {
-  position: absolute;
-  right: 350px;
-  top: -300px;
+position: absolute;
+right: 320px;
+top: 50px;
 }
 
 #chikitaAbout {
-  border-radius: 15px;
-  color: white;
+border-radius: 20px;
+color: white;
+height: 250px;
 }
 
 #chikitaAbout h1 {
-  margin-top: -15px;
-  font-size: 50px;
-  text-align: left;
+margin-top: 20px;
+font-size: 50px;
+text-align: left;
 }
 
 #chikitaAbout p {
-  font-size: 25px;
-  padding-top: 5%;
+font-size: 25px;
+padding-top: 5%;
+text-align: left;
+padding-left: 71px;
+padding-right: 71px;
+margin-top: -60px;
 }
 
 .cocoSection {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
+display: flex;
+flex-direction: row-reverse;
+justify-content: flex-end;
 }
 
 #cocoAbout {
-  width: 45%;
-  border-radius: 15px;
+width: 32%;
+border-radius: 15px;
 }
 
 #cocoAbout h1 {
-margin-top: -15px
+text-align: left;
+padding-left: 71px;
+margin-top: 20px
 }
 
 #cocoAbout p {
-  color: white;
-  font-size: 25px;
-  padding-top: 5%;
-  }
+text-align: left;
+padding-left: 71px;
+padding-right: 71px;
+color: white;
+font-size: 25px;
+padding-top: 5%;
+}
 
 .chickAndBench {
-  position: absolute;
-  width: 100%;
+position: absolute;
+width: 100%;
 }
 
 #lilChickOnBench {
-  position: absolute;
-  right: 70px;
-  top: -100px;
-  z-index: 10;
+position: absolute;
+right: 70px;
+top: -100px;
+z-index: 10;
 }
 
 #lilChickOnBench img {
-  height: 100%;
-  width: 100%;
+height: 100%;
+width: 100%;
 }
 
 #lilBench {
-  position: absolute;
-  right: 0;
-  z-index: -10;
+position: absolute;
+right: 0;
+z-index: -10;
 }
 
 #lilBench img {
@@ -694,377 +742,453 @@ height: 100%;
 width: 100%;
 }
 
-.tBdiv
-{
-  position: relative;
+.tBdiv {
+position: relative;
 }
 
 .tBoneSection {
-  position: relative;
-  padding-top: 15vh;
+position: relative;
+padding-top: 350px;
 }
 
 #jumpingTBone {
-  position: absolute;
-  left: 18vw;
-  top: -15.19vh;
+position: absolute;
+left: 270px;
+top: -100px;
 }
 
 #tBoneAbout {
-  border-radius: 15px;
-  padding: 25px;
+text-align: right;
+border-radius: 15px;
+padding: 25px;
+height: 250px;
 }
 
 #tBoneAbout h1 {
-  text-align: right;
+text-align: right;
 }
 
+#tBoneAbout p {
+font-size: 25px;
+color: white;
+}
 
 .henweeSection {
-  display: flex;
-  padding-top: 8vh;
-  flex-direction: row;
-  justify-content: space-between;
+display: flex;
+padding-top: 50px;
+flex-direction: row;
+justify-content: space-between;
 }
 
 .henweeSection img {
-  padding-left: 28.80vw;
+padding-left: 180px;
 }
 
 #henweeAbout {
-  width: 45%;
-  border-radius: 15px;
+width: 446px;
+height: 873px;
+border-radius: 15px;
 }
 
 #henweeAbout h1 {
-margin-top: -15px
+text-align: right;
+padding-right: 71px;
+margin-top: 20px
 }
 
 #henweeAbout p {
-  margin: 15px;
-  }
+font-size: 25px;
+text-align: right;
+padding-right: 71px;
+padding-left: 71px;
+color: white;
+}
+
+#aboutPage .followLinks {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 #poussinClo {
-  position: absolute;
-  left: 18vw;
-  top: -13.83vh;
+position: absolute;
+left: 280px;
+top: 110px;
 }
 
 #poussinClo2 {
-  position: absolute;
-  left: 10.79vw;
-  top: -13.83vh;
+position: absolute;
+left: 150px;
+top: 110px;
 }
 
 #cloture {
-  position: absolute;
-  left: 0;
-  z-index: -10;
+position: absolute;
+left: 0;
+bottom: -50px;
+z-index: -10;
 }
 
 .duckSection {
-  position: relative;
-  display: flex;
-  margin-top: -15vh;
-  padding-top: 45vh;
-  flex-direction: row-reverse;
-  align-items: flex-end;
-  padding-bottom: 10vh;
+position: relative;
+display: flex;
+margin-top: 480px;
+padding-top: 290px;
+flex-direction: row-reverse;
+align-items: flex-end;
+padding-bottom: 50px;
 }
 
 .duckSection img {
-  position: absolute;
-  right: 350px;
-  top: 0;
+position: absolute;
+right: 90px;
+top: -430px;
 }
 
 #duckAbout {
-  border-radius: 15px;
-  color: white;
+
+border-radius: 15px;
+color: white;
+height: 300px;
 }
 
 #duckAbout h1 {
-  margin-top: -15px;
-  font-size: 3em;
-  text-align: left;
+margin-top: 20px;
+font-size: 3em;
+text-align: left;
 }
 
-#duckAbout h2 {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+#duckAbout p {
+color: white;
+font-size: 25px;
+padding-top: 10px;
+padding-left: 71px;
+padding-right: 71px;
+padding-bottom: 10px;
+text-align: left;
 }
 
 .broosterSection {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
-  padding-bottom: 10vh;
+display: flex;
+flex-direction: row-reverse;
+justify-content: flex-end;
+padding-bottom: 100px;
+width: 1083px;
 }
 
 #broosterAbout {
-  width: 45%;
-  border-radius: 15px;
+width: 45%;
+border-radius: 25px;
 }
 
 #broosterAbout h1 {
-margin-top: -15px
+text-align: left;
+margin-top: 20px
 }
 
-#broosterAbout h2 {
-  margin: 15px;
-  }
+#broosterAbout p {
+  color: white;
+  font-size: 25px;
+  padding-top: 10px;
+  padding-left: 71px;
+  padding-right: 71px;
+  padding-bottom: 10px;
+  text-align: left;
+}
 
 #landscape {
-  position: relative;
-  display: block;
-  height: 364px;
-  width: 100%;
-  z-index: -10;
+position: relative;
+display: block;
+height: 364px;
+width: 100%;
+z-index: -10;
 }
 
 #landscape img {
-  height: 100%;
-  width: 100%;
-  z-index: -10;
+height: 100%;
+width: 100%;
+z-index: -10;
 }
 
 .moreFriendsAndButton {
-  display: flex;
-  flex-direction: column;
-  justify-content: center !important;
-  align-items: center !important;
+display: flex;
+flex-direction: column;
+padding-top: 120px;
+justify-content: center !important;
+align-items: center !important;
+}
+
+.moreFriendsAndButton button {
+  border-radius: 15px;
+  margin-top: 50px;
+}
+
+.moreFriendsAndButton button h2 {
+  padding: 5px;
+  font-size: 40px !important;
+}
+
+.moreFriendsAndButton h2 {
+  font-size: 80px !important;
+}
+
+.moreFriendsAndButton a {
+  text-decoration: none;
 }
 
 .madeByAbout {
-  margin-top: -10vh;
-  border-radius: 25px;
-  z-index: 10;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+margin-top: -10vh;
+border-radius: 25px;
+z-index: 10;
 }
 
-.madeByAbout h1 {
-padding-top: 50px;
+.madeByAbout h2 {
+  padding: 0;
+  padding-top: 50px;
 }
 
 .madeByAbout p {
-  font-size: 32px;
-  color: white;
-  padding-bottom: 50px;
-  }
+font-size: 32px;
+color: white;
+padding-bottom: 50px;
+}
 
 /* ------------------Media section---------------  */
 
 #mediaBanner {
-  height: 421px;
-  
+height: 421px;
+width: 100%;
 }
 
 #mediaBanner img {
-  width: 100%;
+height: 421px;
+width: 100%;
 }
 
 .pressRoomSection {
-  display: flex;
-  width: 100%;
-  max-width: 1440px;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  margin-top: -125px;
-  background-color: #56d0fa;
-  color: #e91572;
-  border-radius: 15px;
-  height: 300px;
-  z-index: inherit;
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+position: absolute;
+margin-top: -40px;
+background-color: #56d0fa;
+color: #e91572;
+border-radius: 15px;
+height: 325px;
+z-index: inherit;
 }
 
 .pressRoomSection h1 {
-  font-size: 90px;
+font-size: 90px;
 }
 
 .featuredSection {
-  padding-top: 38vh;
+padding-top: 360px;
 }
 
 .featuredSection h1 {
-  font-size: 70px;
+font-size: 70px;
+padding-bottom: 60px;
 }
 
 .featuredImgs {
-  display: flex;
-  align-items: center;
-  justify-content:space-evenly;
-  margin: 30px;
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+margin: 30px;
+padding-bottom: 110px;
 }
 
 .articleSection h3 {
-  font-size: 30px;
-  text-align: left;
-  padding-top: 5px;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 2vw;
+font-size: 30px;
+text-align: left;
+padding-top: 20px;
+margin-top: 0;
+margin-bottom: 0;
+margin-left: 30px;
 }
 
 .articleSection p {
-  font-size: 25px;
-  text-align: left;
-  margin-left: 2vw;
+font-size: 25px;
+padding-top: 10px;
+text-align: left;
+margin-left: 30px;
 }
 
 .mediaArticles {
-  display: flex;
-  margin: 5vh;
+display: flex;
+margin: 33px;
 }
 
 .mediaArticles img {
-height: 53.17vh;
-width: 44.13vw;
+height: 383px;
+width: 590px;
 }
 
 #dogDancing {
-  border-bottom: 2px #56d0fa solid;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 3%;
-  margin-bottom: 3%;
+border-bottom: 2px #56d0fa solid;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 110px;
+padding-top: 90px;
 }
 
 /* ------------------CONTACT section---------------  */
 
 #banner {
-  position: relative;
-  width: 100%;
-  z-index: -10;
+position: relative;
+height: 421px;
+width: 100%;
+z-index: -10;
 }
 
 .formDiv {
-  padding-top: 55px;
-  border-radius: 25px;
-  margin-top: -45px;
-  z-index: 10;
-  padding-left: 2vw;
+padding-top: 55px;
+height: 900px;
+border-radius: 25px;
+margin-top: -45px;
+z-index: 10;
+padding-left: 40px;
 }
 
 .formDiv h1 {
-  font-size: 60px;
-  color: white;
-  text-align: left;
+padding-top: 15px;
+padding-bottom: 50px;
+font-size: 60px;
+color: white;
+text-align: left;
 }
 
 #emailForm {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 2%;
+display: flex;
+flex-direction: column;
+padding-bottom: 2%;
 }
 
 .nameAndEmail {
-  display: flex;
-  flex-direction: column;
+display: flex;
+flex-direction: column;
 }
 
 .nameAndEmail #Name {
-  width: 25%;
-  height: 53px;
-  border-radius: 10px;
-  margin-bottom: 2%;
+width: 25%;
+height: 53px;
+border-radius: 10px;
+margin-bottom: 2%;
+padding-left: 10px;
 }
 
 .nameAndEmail #email {
-  width: 25%;
-  height: 53px;
-  border-radius: 10px;
-  margin-bottom: 2%;
+width: 25%;
+height: 53px;
+border-radius: 10px;
+margin-bottom: 2%;
+padding-left: 10px;
 }
 
 #message {
-  height: 347px;
-  width: 66%;
-  margin-bottom: 2%;
+border-radius: 25px;
+height: 347px;
+width: 97%;
+margin-bottom: 2%;
+padding-left: 10px;
 }
 
 #emailForm button {
-  border-radius: 25px;
-  margin-left: 40%;
-  margin-right: 40%;
-  width: 20%;
+border-radius: 25px;
+margin-left: 40%;
+margin-right: 40%;
+width: 20%;
 }
 
 #emailForm button h3 {
-  font-size: 20px;
+font-size: 20px;
 }
 
 .contactImgs {
-  padding-top: 5vh;
-  display: flex;
+padding-top: 150px;
+display: flex;
 } 
 
 .imgDiv1 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: -10px;
-  width: 50%;
+display: flex;
+justify-content: center;
+margin-bottom: -10px;
+width: 50%;
 }
 
 .imgDiv2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-top: -10px;
-  width: 50%;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+margin-top: -10px;
+width: 50%;
 }
 
 .row1Contact {
-  display: flex;
+display: flex;
 }
 
 .houseContact {
-  width: 50%;
+width: 50%;
 }
 
 
 .followUsContact {
-  display: flex;
-  width: 50%;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 5%;
+display: flex;
+width: 50%;
+justify-content: center;
+flex-direction: column;
+margin-top: 5%;
 }
 
 .followUsContact h1 {
-  margin: 0;
+margin: 0;
+font-family: 'Hello Farmer';
+font-size: 70px;
 }
 
 .contactFollowLinks {
-  margin: 40px;
-  height: 148px;
-  width: 172px;
+margin: 40px;
+height: 130px;
+width: 130px;
 }
 
 .row2Contact {
-  display: flex;
-  flex-direction: row-reverse;
+display: flex;
+flex-direction: row-reverse;
 }
 
 .contactButtonDiv {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 .contactButtonDiv button {
-  width: 150%;
-  /* height: 80px; */
-  color: white;
-  margin-left: -150%;
- }
+border-radius: 25px;
+width: 150%;
+/* height: 80px; */
+color: white;
+margin-left: -150%;
+}
 
 .contactButtonDiv button h2 {
- color: white;
- font-size: 35px;
+color: white;
+font-size: 35px;
+}
+
+.contactButtonDiv button a {
+  text-decoration: none;
 }
 
 #wackyContact {
-  display: flex;
+display: flex;
 }
 
 

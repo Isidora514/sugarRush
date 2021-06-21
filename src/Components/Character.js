@@ -140,7 +140,7 @@ export default function Characters(props) {
       <Lyrics />
 
   <section id="followSection">
-    <h1 className='magenta farmer font80'> Follow us on Youtube and Tiktok! </h1>
+    <h1 className='magenta farmer font80'> FOLLOW US ON TIKTOK AND YOUTUBE! </h1>
     <div className="followLinks"> 
     <img src={potato} id="potatoBag" />
     <a href="https://www.tiktok.com/@sugarrushjams?lang=en" target="_blank"><img className="tiktokLogo" src={tikTok} /></a>

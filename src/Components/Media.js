@@ -54,7 +54,7 @@ export default function About (props) {
       </div>
 
       <section className="articleSection">
-        <h2>ARTICLES</h2>
+        <h2><b>ARTICLES</b></h2>
 
         <div className="mediaArticles">
           <a href="https://www.iheartradio.ca/virginradio/montreal/audio-video/the-new-baby-shark-1.15351110"><img src={artVirgin} /></a>
