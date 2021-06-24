@@ -1,8 +1,13 @@
 /* -----font------ */
 
 html {
-  width: 100%
-  
+  width: 100%;
+  margin: 0;
+}
+
+.App {
+  width: 100%;
+  text-align: center;
 }
 
 /* !!!!!!!!! Need to use this font for all H-tags !!!!!!!!! */
@@ -85,11 +90,6 @@ body {
   width: 100%;
 }
 
-.App {
-  width: 100%;
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -102,24 +102,43 @@ body {
 /* ------------NAV SECTION--------------  */
 
 /* !!!change once drawer is ready!!! */
+
 .drawer {
- display: none;
-}
-.drawerList {
+  position: relative;
+  z-index: 1000;
+ }
+
+ .drawerList {
   display: flex;
   flex-direction: column;
-  height: 100%;
-  color: white;
   font-size: 25px;
+  height: 100%;
+} 
+
+.listItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.listItem a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
 }
 
 .nav {
+display: flex;
 width: 100%;
 height: 134px;
 align-items: center;
 padding: 0;
-display:flex;
-justify-content: space-evenly;
+justify-content: space-between;
+}
+
+.navIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav h1 {

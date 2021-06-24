@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components'
+import Drawer from '../Drawer'
 
 
 
@@ -19,6 +20,7 @@ export default function Navbar(props) {
         <li><a href="/about"><h1>ABOUT</h1></a></li>
         <li><a href="/media"><h1>MEDIA</h1></a></li>
         <li><a href="/contact"><h1>CONTACT</h1></a></li>
+        <li><Drawer /></li>
       </div>
     </nav>
   ) 
