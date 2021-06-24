@@ -35,10 +35,8 @@ export default function About (props) {
         <img src={banner} alt="farm" />
       </div>
 
-      <div className="aLittleMore blue-bg">
-        <h1>A LITTLE MORE</h1>
-        <h1>ABOUT SUGAR RUSH JAMS!</h1>
-        <p>{content[0]}</p>
+      <div className="learnEnglish blue-bg">
+        <h1 className="farmer magenta">LEARN ENGLISH AND PLAY WITH YOUR NEW FRIENDS</h1>
       </div>
 
       <h3 className="magenta farmer">STARRING THE</h3>
@@ -159,7 +157,6 @@ export default function About (props) {
       </div>
       <div className="madeByAbout blue-bg">
         <h2>"MADE BY KIDS FOR KIDS!"</h2>
-        <p>More information coming soon!</p>
       </div>
       <div className="moreFriendsAndButton">
       <h2 className="targeth2 magenta farmer">MORE FRIENDS COMING SOON!</h2>

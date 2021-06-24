@@ -24,6 +24,9 @@ export default function Contact(props) {
         <h1>FEEL FREE TO CONTACT US WITH YOUR QUESTIONS & INQUIRIES!</h1>
         <Form />
       </div>
+      <div className="emailDiv">
+        <h1 className="farmer magenta"> Sugarrushjams@gmail.com</h1>
+      </div>
       <div className="contactImgs">
         <div className="imgDiv1">
           <img src={tBone} />

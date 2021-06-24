@@ -25,7 +25,7 @@ export default function Footer(props) {
 
     <div>
       <small>
-        Privacy Policy &#124; Terms of use &#124; Surgarrushjams.org
+        Privacy Policy &#124; Terms of use &#124; Surgarrushjams.com | ©Copyright SugarRushJams 2021.
       </small>
     </div>
 

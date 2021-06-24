@@ -101,6 +101,17 @@ body {
 
 /* ------------NAV SECTION--------------  */
 
+/* !!!change once drawer is ready!!! */
+.drawer {
+ display: none;
+}
+.drawerList {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: white;
+  font-size: 25px;
+}
 
 .nav {
 width: 100%;
@@ -475,24 +486,22 @@ border-radius: 50px;
     z-index: -10;
   }
 
-  .aLittleMore {
-    color: white;
+  .learnEnglish {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    background-color: #56d0fa;
+    color: #e91572;
     border-radius: 40px;
-    height: 350px;
-    margin-top: -35px;
-    z-index: 10;
-    margin-bottom: 50px;
+    height: 250px;
+    z-index: inherit;
   }
   
-  .aLittleMore h1 {
+  .learnEnglish h1 {
     font-size: 30px;
   }
-  
-  .aLittleMore p {
-    padding: 10px;
-    font-size: 15px;
-  }
-
   .followingCast {
   
   }
@@ -525,17 +534,19 @@ border-radius: 50px;
     font-size: 60px !important;
   }
 
+  .madeByAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .madeByAbout h2 {
+
     color: white;
     padding: 0;
-    padding-top: 50px;
+    padding-top: 10px;
   }
   
-  .madeByAbout p {
-  font-size: 32px;
-  color: white;
-  padding-bottom: 50px;
-  }
 
   .moreFriendsAndButton button h2 {
     padding: 3px;
