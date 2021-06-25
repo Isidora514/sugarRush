@@ -25,7 +25,7 @@ export default function MUIDrawer() {
 
   return (
     <div>
-    <Button onClick={toggleDrawer(true)}><MenuIcon /></Button>
+    <Button onClick={toggleDrawer(true)}><MenuIcon fontSize="Large" /></Button>
     <Drawer className="drawer^" 
       anchor={'right'} 
       open={state}  
